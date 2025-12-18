@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "revamping": "Modernisation",
+    "pilot": "Pilote",
+    "about": "À propos"
+  },
+  "hero": {
+    "title": "Bienvenue sur ExtraWeb",
+    "subtitle": "Solutions innovantes pour vos besoins"
+  },
+  "process": {
+    "title": "Nos processus",
+    "subtitle": "Découvrez nos solutions de traitement innovantes",
+    "extraAcid": {
+      "summary": "ExtrAcid® est le premier système qui recycle l'acide sulfurique usé sous pression en utilisant des systèmes de boucles brevetés innovants produisant de l'acide hautement concentré et de la vapeur de processus en même temps.",
+      "introduction": "INTRODUCTION",
+      "introText1": "L'acide sulfurique usé provenant de divers processus chimiques doit être recyclé en éliminant l'eau et autres impuretés de l'acide. Par déshydratation, la concentration passe de moins de 15% à des valeurs plus élevées, typiquement de 98%.",
+      "introText2": "Les systèmes typiques de concentration d'acide (SAC ou SAS ou systèmes de déshydratation) sont séparés en systèmes de faible concentration jusqu'à 70%, moyenne et haute concentration.",
+      "systemWorks": "LE SYSTÈME FONCTIONNE AUSSI POUR ALKALIN, HF OU HCL",
+      "benefitsTitle": "AVANTAGES EN UN COUP D'ŒIL",
+      "benefits": {
+        "energy": "Récupération d'énergie par production de vapeur",
+        "design": "Design innovant de 2 boucles breveté",
+        "flexible": "Concentration d'entrée flexible",
+        "range": "De 5 à 98%",
+        "impurities": "Gère les impuretés",
+        "footprint": "Petite empreinte",
+        "optimized": "Capex et opex optimisés"
+      },
+      "applicationsTitle": "APPLICATIONS POUR ExtrAcid®",
+      "applications": {
+        "titanium": "Dioxyde de titane",
+        "gas": "Séchage/purification de gaz",
+        "nitration": "Processus de nitration",
+        "mining": "Exploitation minière",
+        "purity": "Acides de haute pureté"
+      },
+      "patentedTitle": "DESIGN BREVETÉ",
+      "patentedText": "Le design du système ExtrAcid® est breveté couvrant le processus incluant les boucles pour la production de vapeur et l'utilisation de matériau SIC dans les gammes de pression et température requises.",
+      "steamTitle": "TRANSFORMER L'EAU ACIDE EN VAPEUR DE PROCESSUS",
+      "steamText1": "Il est bien connu que le recyclage par évaporation sous vide de l'eau consomme beaucoup d'énergie. Bien que la consommation d'énergie ait été optimisée ces dernières années, une énergie précieuse ne peut pas être récupérée en raison de faibles niveaux de température.",
+      "steamText2": "Le système de processus innovant ExtrAcid® est le premier qui peut réduire considérablement la consommation d'énergie en produisant de la vapeur de processus précieuse.",
+      "impuritiesTitle": "IMPURETÉS",
+      "impuritiesText1": "Comme l'acide sulfurique usé provient de nombreuses sources différentes, il contient souvent des impuretés organiques ou inorganiques autres que l'eau qui doivent être éliminées. Selon la nature du processus, des exemples typiques sont HF, H₂O₂ ou Fe.",
+      "impuritiesText2": "Il est important de connaître le type et la quantité d'impuretés avant la conception du système ExtrAcid®. Certains composés organiques comme H₂O₂ se décomposent en eau et O₂ si la température est suffisamment augmentée. D'autres comme HF restent en phase vapeur et peuvent être séparés de cette façon. Certains nécessitent un traitement spécial comme la purification par cristallisation.",
+      "impuritiesText3": "ExtrAcid® peut offrir de nombreuses solutions à ce large éventail de défis. En raison de la résistance chimique universelle de notre matériau principal, il convient aux applications HF, en raison des températures élevées, il brûle de nombreux composés organiques en leurs éléments ou les sépare par évaporation.",
+      "crystallisationTitle": "PURIFICATION PAR CRISTALLISATION",
+      "crystallisationText": "Une tâche habituelle pour le traitement de l'acide usé provenant de la production de dioxyde de titane est la charge de Fe dans les déchets. Elle peut être réduite en formant du sulfate ferreux monohydraté. Ce type de processus peut facilement être ajouté au système ExtrAcid®."
+    },
+    "extrAlkali": {
+      "summary": "ExtrAlkali® est le premier système qui réduit considérablement le Capex – Opex pour la concentration de soude caustique en utilisant du carbure de silicium pour atteindre une soude caustique hautement concentrée et de la vapeur de processus en même temps.",
+      "introduction": "INTRODUCTION",
+      "introText1": "La soude caustique de l'électrolyse doit être concentrée en éliminant l'eau et autres impuretés. En utilisant SIC, le produit final est sans nickel même à des concentrations élevées jusqu'à 99%. Une usine sur mesure:",
+      "introItems": {
+        "noStandard": "Pas de concept standard – conçu selon la situation donnée en utilisant des modules",
+        "utilities": "Selon les utilitaires disponibles sur site",
+        "opex": "Optimisation de l'OPEX et du CAPEX",
+        "concentration": "Concentration de 50, 70 ou 99%"
+      },
+      "systemWorks": "LE SYSTÈME FONCTIONNE AUSSI POUR ACIDE, HF OU HCL.",
+      "benefitsTitle": "AVANTAGES EN UN COUP D'ŒIL",
+      "benefits": {
+        "nickel": "Pas d'absorption de nickel",
+        "energy": "Récupération d'énergie par production de vapeur",
+        "upTo": "Jusqu'à 99%",
+        "impurities": "Gère les impuretés",
+        "footprint": "Petite empreinte",
+        "optimized": "Capex et opex optimisés"
+      },
+      "applicationsTitle": "APPLICATIONS",
+      "applications": {
+        "naoh": "NaOH/ KOH jusqu'à 99%",
+        "h2so4": "H₂SO₄ jusqu'à 98% (séchage du chlore)",
+        "hcl": "HCl jusqu'à 25%",
+        "cacl2": "CaCl₂ jusqu'à 72%",
+        "hf": "HF jusqu'à 40%"
+      },
+      "patentedTitle": "DESIGN BREVETÉ",
+      "patentedText": "Le design du système ExtrAlkali® est breveté pour jusqu'à 6 effets et l'utilisation de matériau SIC dans les gammes de pression et température requises.",
+      "steamTitle": "TRANSFORMER L'EAU DE PROCESSUS EN VAPEUR DE PROCESSUS",
+      "steamText1": "Il est bien connu que les systèmes de concentration actuels, par évaporation de l'eau, ont une consommation d'énergie élevée. Bien que la consommation d'énergie ait été optimisée ces dernières années, une énergie précieuse ne peut pas être récupérée en raison de faibles niveaux de température.",
+      "steamText2": "Le système de processus innovant ExtrAlkali® est le premier qui peut réduire considérablement la consommation d'énergie en produisant de la vapeur de processus précieuse."
+    },
+    "hcl": {
+      "title": "SYNTHÈSE HCL",
+      "text1": "Lors de la synthèse HCL, le chlore réagit avec l'eau pour former HCL à des températures de plus de 1 500 °C. Le processus nécessite l'ajout de chaleur, qui est ensuite retirée du système.",
+      "text2": "Pour une opération sûre, le processus est géré dans des unités en graphite. Une liste de référence de plus de 100 applications est disponible.",
+      "turnKeyTitle": "Unités clés en main incl. l'ingénierie de processus",
+      "turnKeyText": "Nous offrons des fours simples, des unités trois en un et des unités clés en main complètes incluant l'ingénierie de processus",
+      "advantagesTitle": "Avantages des unités trois en un:",
+      "advantages": {
+        "synthesis": "Synthèse, absorption et refroidissement dans une unité",
+        "efficiency": "Efficacité améliorée",
+        "lifetime": "Longue durée de vie",
+        "request": "Unités clés en main sur demande",
+        "compatible": "Compatible avec les usines existantes",
+        "references": "Plus de 100 références"
+      },
+      "technicalTitle": "Données techniques",
+      "technical": {
+        "modular": "Structure modulaire de différentes tailles",
+        "steam": "Vapeur comme sous-produit",
+        "firing": "Brasier par le bas"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Comparaison des processus",
+    "subtitle": "Comparez les processus ExtraAcid et ExtrAlkali"
+  },
+  "footer": {
+    "description": "Solutions innovantes pour les besoins de votre entreprise.",
+    "quickLinks": "Liens rapides",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Abonnez-vous à notre newsletter pour recevoir des mises à jour.",
+    "emailPlaceholder": "Votre e-mail",
+    "subscribe": "S'abonner",
+    "copyright": "© {year} ExtraWeb. Tous droits réservés."
+  },
+  "about": {
+    "title": "À propos",
+    "companyName": "ExtrAsys",
+    "description1": "Extrasys a été créé pour mettre sur le marché les systèmes ExtrAcid® et ExtrAlkali®. L'entreprise réunit 30 ans d'expérience dans l'industrie chimique avec des matériaux tels que le graphite, le carbure de silicium et le PTFE.",
+    "description2": "Ces années d'expérience ont également mis en évidence les lacunes et les limitations de la technologie actuelle. Avec les systèmes ExtrAcid® et ExtrAlkali®, les limites de la technologie actuelle dans le recyclage des acides et sodas usés sont redéfinies.",
+    "location": "Extasys est situé en Suisse avec des bureaux en France, Allemagne, Chine et Inde.",
+    "pilotPlant": "Dans notre usine pilote en France, tous les processus possibles peuvent être testés / démontrés."
+  },
+  "pilot": {
+    "title": "Usine pilote",
+    "message": "Cette page est encore en cours de création."
+  },
+  "revamping": {
+    "title": "Modernisation ExtrAlkali®",
+    "subtitle": "Module de modernisation breveté pour unité de concentration NaOH & KOH par Chem-Eng SASU et Wilk Graphite GmbH",
+    "aboutTitle": "À propos d'ExtrAlkali®",
+    "aboutDescription": "ExtrAlkali® est une marque née de la collaboration fructueuse de deux entreprises de renommée internationale",
+    "brandFor": "Une marque pour les solutions de processus pour l'industrie chlore-alcali telles que:",
+    "brandItems": {
+      "caustic": "Usine d'évaporation / floculation de soude caustique",
+      "sulfuric": "Usine de concentration d'acide sulfurique",
+      "hcl": "Usine de synthèse HCl",
+      "calcium": "Usine de production de chlorure de calcium"
+    },
+    "tailorMadeTitle": "Usine sur mesure",
+    "tailorMadeItems": {
+      "noStandard": "Pas de concept standard – conçu selon la situation donnée en utilisant des modules",
+      "utilities": "Selon les utilitaires disponibles sur site (eau de refroidissement, vapeur, etc.)",
+      "opex": "Optimisation de l'OPEX selon les prix de l'énergie (gaz, vapeur, etc.)",
+      "capex": "Considération CAPEX"
+    },
+    "moduleTitle": "Module de modernisation",
+    "moduleItems": {
+      "item1": "Modernisation typique: mise à niveau d'un système à double ou triple effet vers un système à quadruple effet",
+      "item2": "Par haute température, utilisation uniquement d'équipements SIC pour garantir une excellente qualité de produit (plus ou moins aucune absorption de Ni) et une longue durée de vie de tous les équipements.",
+      "item3": "Jusqu'à 5 effets disponibles pour réduire les consommations d'énergie / émissions de CO₂",
+      "item4": "ExtrAlkali est la seule marque offrant un tel concept d'usine."
+    },
+    "benefitsTitle": "Avantages de la modernisation",
+    "benefitsItems": {
+      "item1": "Possibilité de moderniser l'évaporation à double ou triple effet existante vers un système à quadruple effet (très faible exigence d'espace)",
+      "item2": "Remboursement en moins de deux ans même en considérant un système de chauffage à huile thermique supplémentaire",
+      "item3": "Concept attractif surtout dans les pays à coûts énergétiques élevés et taxes sur les émissions de CO₂"
+    },
+    "installationTitle": "Options d'installation",
+    "installationItems": {
+      "item1": "L'effet supplémentaire peut être livré monté sur SKID et installé à côté de l'unité d'évaporation existante",
+      "item2": "L'effet supplémentaire peut être installé dans le bâtiment existant (si l'espace est disponible)",
+      "item3": "L'unité de chauffage à huile thermique est requise"
+    },
+    "energySavings": "Économies d'énergie",
+    "energyReduction1": "Réduction d'énergie pour la mise à niveau de triple à quadruple effet",
+    "energyReduction2": "Réduction d'énergie pour la mise à niveau de double à quadruple effet"
+  }
+}
+

@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "revamping": "Modernisierung",
+    "pilot": "Pilot",
+    "about": "Über uns"
+  },
+  "hero": {
+    "title": "Willkommen bei ExtraWeb",
+    "subtitle": "Innovative Lösungen für Ihre Bedürfnisse"
+  },
+  "process": {
+    "title": "Unsere Prozesse",
+    "subtitle": "Entdecken Sie unsere innovativen Verarbeitungslösungen",
+    "extraAcid": {
+      "summary": "ExtrAcid® ist das erste System, das Abfallsäure unter Druck recycelt und dabei innovative patentierte Loop-Systeme verwendet, die gleichzeitig hochkonzentrierte Säure und Prozessdampf produzieren.",
+      "introduction": "EINFÜHRUNG",
+      "introText1": "Abfallsäure aus verschiedenen chemischen Prozessen muss recycelt werden, indem Wasser und andere Verunreinigungen aus der Säure entfernt werden. Durch Entwässerung steigt die Konzentration von weniger als 15% auf höhere Werte von typischerweise 98%.",
+      "introText2": "Typische Säurekonzentrationssysteme (SAC oder SAS oder Entwässerungssysteme) werden in niedrigere Konzentrationen von bis zu 70%, mittlere und hohe Konzentrationssysteme unterteilt.",
+      "systemWorks": "SYSTEM FUNKTIONIERT AUCH FÜR ALKALISCH, HF ODER HCL",
+      "benefitsTitle": "VORTEILE AUF EINEN BLICK",
+      "benefits": {
+        "energy": "Energierückgewinnung durch Dampfproduktion",
+        "design": "Innovatives patentiertes 2-Loop-Design",
+        "flexible": "Flexible Eingangskonzentration",
+        "range": "Von 5 bis 98%",
+        "impurities": "Behandelt Verunreinigungen",
+        "footprint": "Kleiner Platzbedarf",
+        "optimized": "Optimierte Capex und Opex"
+      },
+      "applicationsTitle": "ANWENDUNGEN FÜR ExtrAcid®",
+      "applications": {
+        "titanium": "Titandioxid",
+        "gas": "Gas-Trocknung/Reinigung",
+        "nitration": "Nitrierungsprozesse",
+        "mining": "Bergbau",
+        "purity": "Hochreine Säuren"
+      },
+      "patentedTitle": "PATENTIERTES DESIGN",
+      "patentedText": "Das Design des ExtrAcid® Systems ist patentiert und umfasst den Prozess einschließlich der Loops für die Dampfproduktion und die Verwendung von SIC-Material in den erforderlichen Druck- und Temperaturbereichen.",
+      "steamTitle": "SÄUREWASSER IN PROZESSDAMPF UMWANDELN",
+      "steamText1": "Bekannt ist, dass das Recycling durch Vakuumverdampfung von Wasser hohe Energieressourcen verbraucht. Obwohl der Energieverbrauch in den letzten Jahren optimiert wurde, kann wertvolle Energie aufgrund niedriger Temperaturniveaus nicht zurückgewonnen werden.",
+      "steamText2": "Das innovative ExtrAcid® Prozesssystem ist das erste, das den Energieverbrauch erheblich reduzieren kann, indem es wertvollen Prozessdampf produziert.",
+      "impuritiesTitle": "VERUNREINIGUNGEN",
+      "impuritiesText1": "Da Abfallsäure viele verschiedene Quellen hat, enthält sie oft organische oder anorganische Verunreinigungen außer Wasser, die entfernt werden müssen. Abhängig von der Art des Prozesses sind typische Beispiele HF, H₂O₂ oder Fe.",
+      "impuritiesText2": "Es ist wichtig, Art und Menge der Verunreinigungen vor dem Design des ExtrAcid® Systems zu kennen. Einige Organika wie H₂O₂ werden in Wasser und O₂ zerlegt, wenn die Temperatur ausreichend erhöht wird. Andere wie HF bleiben in der Dampfphase und können auf diese Weise getrennt werden. Einige benötigen eine spezielle Behandlung wie Reinigung durch Kristallisation.",
+      "impuritiesText3": "ExtrAcid® kann viele Lösungen für diese breite Palette von Herausforderungen bieten. Aufgrund des universellen chemischen Widerstands unseres Hauptmaterials ist es für HF-Anwendungen geeignet, aufgrund hoher Temperaturen verbrennt es viele Organika in ihre Elemente oder trennt sie durch Verdampfung.",
+      "crystallisationTitle": "REINIGUNG DURCH KRISTALLISATION",
+      "crystallisationText": "Eine übliche Aufgabe bei der Behandlung von Abfallsäure aus der Produktion von Titandioxid ist die Fe-Last im Abfall. Sie kann durch Bildung von Ferrosulfat-Monohydrat reduziert werden. Diese Art von Prozessen kann leicht zum ExtrAcid® System hinzugefügt werden."
+    },
+    "extrAlkali": {
+      "summary": "ExtrAlkali® ist das erste System, das Capex – Opex für die Konzentration von Ätznatron erheblich reduziert, indem Siliziumkarbid verwendet wird, um gleichzeitig hochkonzentriertes Ätznatron und Prozessdampf zu erreichen.",
+      "introduction": "EINFÜHRUNG",
+      "introText1": "Ätznatron aus der Elektrolyse muss durch Entfernen von Wasser und anderen Verunreinigungen konzentriert werden. Durch Verwendung von SIC ist das Endprodukt auch bei hohen Konzentrationen bis zu 99% nickel-frei. Eine maßgeschneiderte Anlage:",
+      "introItems": {
+        "noStandard": "Kein Standardkonzept – nach gegebener Situation mit Modulen gestaltet",
+        "utilities": "Entsprechend verfügbaren Versorgungseinrichtungen vor Ort",
+        "opex": "OPEX und CAPEX optimieren",
+        "concentration": "50, 70 oder 99% Konzentration"
+      },
+      "systemWorks": "SYSTEM FUNKTIONIERT AUCH FÜR SÄURE, HF ODER HCL.",
+      "benefitsTitle": "VORTEILE AUF EINEN BLICK",
+      "benefits": {
+        "nickel": "Keine Nickel-Aufnahme",
+        "energy": "Energierückgewinnung durch Dampfproduktion",
+        "upTo": "Bis zu 99%",
+        "impurities": "Behandelt Verunreinigungen",
+        "footprint": "Kleiner Platzbedarf",
+        "optimized": "Optimierte Capex und Opex"
+      },
+      "applicationsTitle": "ANWENDUNGEN",
+      "applications": {
+        "naoh": "NaOH/ KOH bis zu 99%",
+        "h2so4": "H₂SO₄ bis zu 98% (Chlortrocknung)",
+        "hcl": "HCl bis zu 25%",
+        "cacl2": "CaCl₂ bis zu 72%",
+        "hf": "HF bis zu 40%"
+      },
+      "patentedTitle": "PATENTIERTES DESIGN",
+      "patentedText": "Das Design des ExtrAlkali® Systems ist für bis zu 6 Effekte patentiert und die Verwendung von SIC-Material in den erforderlichen Druck- und Temperaturbereichen.",
+      "steamTitle": "PROZESSWASSER IN PROZESSDAMPF UMWANDELN",
+      "steamText1": "Es ist bekannt, dass die aktuellen Konzentrationssysteme durch Verdampfung von Wasser einen hohen Energieverbrauch haben. Obwohl der Energieverbrauch in den letzten Jahren optimiert wurde, kann wertvolle Energie aufgrund niedriger Temperaturniveaus nicht zurückgewonnen werden.",
+      "steamText2": "Das innovative ExtrAlkali® Prozesssystem ist das erste, das den Energieverbrauch erheblich reduzieren kann, indem es wertvollen Prozessdampf produziert."
+    },
+    "hcl": {
+      "title": "HCL-SYNTHESE",
+      "text1": "Während der HCL-Synthese reagiert Chlor mit Wasser zu HCL bei Temperaturen von mehr als 1.500 °C. Der Prozess erfordert die Zugabe von Wärme, die später aus dem System entfernt wird.",
+      "text2": "Für einen sicheren Betrieb wird der Prozess in Graphiteinheiten durchgeführt. Eine Referenzliste mit mehr als 100 Anwendungen ist verfügbar.",
+      "turnKeyTitle": "Schlüsselfertige Einheiten inkl. Prozessengineering",
+      "turnKeyText": "Wir bieten einfache Öfen, Drei-in-Eins-Einheiten und vollständige schlüsselfertige Einheiten einschließlich Prozessengineering",
+      "advantagesTitle": "Vorteile der Drei-in-Eins-Einheiten:",
+      "advantages": {
+        "synthesis": "Synthese, Absorption und Kühlung in einer Einheit",
+        "efficiency": "Verbesserte Effizienz",
+        "lifetime": "Lange Lebensdauer",
+        "request": "Schlüsselfertige Einheiten auf Anfrage",
+        "compatible": "Kompatibel mit bestehenden Anlagen",
+        "references": "Mehr als 100 Referenzen"
+      },
+      "technicalTitle": "Technische Daten",
+      "technical": {
+        "modular": "Modulare Struktur verschiedener Größen",
+        "steam": "Dampf als Nebenprodukt",
+        "firing": "Befeuerung von unten"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Prozessvergleich",
+    "subtitle": "Vergleichen Sie ExtraAcid und ExtrAlkali Prozesse"
+  },
+  "footer": {
+    "description": "Innovative Lösungen für Ihre Geschäftsbedürfnisse.",
+    "quickLinks": "Schnelllinks",
+    "contact": "Kontakt",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Abonnieren Sie unseren Newsletter für Updates.",
+    "emailPlaceholder": "Ihre E-Mail",
+    "subscribe": "Abonnieren",
+    "copyright": "© {year} ExtraWeb. Alle Rechte vorbehalten."
+  },
+  "about": {
+    "title": "Über uns",
+    "companyName": "ExtrAsys",
+    "description1": "Extrasys wurde gegründet, um die ExtrAcid® und ExtrAlkali® Systeme auf den Markt zu bringen. Das Unternehmen vereint 30 Jahre Erfahrung in der chemischen Industrie mit Materialien wie Graphit, Siliziumkarbid und PTFE.",
+    "description2": "Diese jahrelange Erfahrung hat auch die Lücken und Grenzen der heutigen Technologie aufgezeigt. Mit den ExtrAcid® und ExtrAlkali® Systemen werden die Grenzen der heutigen Technologie beim Recycling von Abfallsäure und Soda neu definiert.",
+    "location": "Extasys befindet sich in der Schweiz mit Büros in Frankreich, Deutschland, China und Indien.",
+    "pilotPlant": "In unserer Pilotanlage in Frankreich können alle möglichen Prozesse getestet / demonstriert werden."
+  },
+  "pilot": {
+    "title": "Pilotanlage",
+    "message": "Diese Seite wird noch erstellt."
+  },
+  "revamping": {
+    "title": "ExtrAlkali® Modernisierung",
+    "subtitle": "Patentierte Modernisierungsmodule für NaOH & KOH Konzentrationseinheiten von Chem-Eng SASU und Wilk Graphite GmbH",
+    "aboutTitle": "Über ExtrAlkali®",
+    "aboutDescription": "ExtrAlkali® ist eine Marke, die aus der fruchtbaren Zusammenarbeit zweier international renommierter Unternehmen entstanden ist",
+    "brandFor": "Eine Marke für Prozesslösungen für die Chlor-Alkali-Industrie wie:",
+    "brandItems": {
+      "caustic": "Ätznatron-Verdampfung / Flockungsanlage",
+      "sulfuric": "Schwefelsäure-Konzentrationsanlage",
+      "hcl": "HCl-Syntheseanlage",
+      "calcium": "Calciumchlorid-Produktionsanlage"
+    },
+    "tailorMadeTitle": "Maßgeschneiderte Anlage",
+    "tailorMadeItems": {
+      "noStandard": "Kein Standardkonzept – nach gegebener Situation mit Modulen gestaltet",
+      "utilities": "Entsprechend verfügbaren Versorgungseinrichtungen vor Ort (Kühlwasser, Dampf, etc.)",
+      "opex": "OPEX-Optimierung nach Energiepreisen (Gas, Dampf, etc.)",
+      "capex": "CAPEX-Berücksichtigung"
+    },
+    "moduleTitle": "Modernisierungsmodul",
+    "moduleItems": {
+      "item1": "Typische Modernisierung: Upgrade von einem Doppel- oder Dreifach-Effekt-System auf ein Vierfach-Effekt-System",
+      "item2": "Durch hohe Temperaturen nur Verwendung von SIC-Ausrüstung, um eine ausgezeichnete Produktqualität (mehr oder weniger kein Ni-Aufnahme) und eine lange Lebensdauer aller Ausrüstungen zu gewährleisten.",
+      "item3": "Bis zu 5 Effekte verfügbar, um Energieverbrauch / CO₂-Emissionen zu reduzieren",
+      "item4": "ExtrAlkali ist die einzige Marke, die ein solches Anlagenkonzept anbietet."
+    },
+    "benefitsTitle": "Modernisierungsvorteile",
+    "benefitsItems": {
+      "item1": "Möglichkeit, bestehende Doppel- oder Dreifach-Effekt-Verdampfung auf ein Vierfach-Effekt-System zu modernisieren (sehr geringer Platzbedarf)",
+      "item2": "Amortisation in weniger als zwei Jahren, auch bei Berücksichtigung eines zusätzlichen Thermoöl-Heizsystems",
+      "item3": "Attraktives Konzept besonders in Ländern mit hohen Energiekosten und CO₂-Emissionssteuern"
+    },
+    "installationTitle": "Installationsoptionen",
+    "installationItems": {
+      "item1": "Zusätzlicher Effekt kann SKID-montiert geliefert und neben der bestehenden Verdampfungseinheit installiert werden",
+      "item2": "Zusätzlicher Effekt kann im bestehenden Gebäude installiert werden (wenn Platz verfügbar)",
+      "item3": "Thermoöl-Heizungseinheit ist erforderlich"
+    },
+    "energySavings": "Energieeinsparungen",
+    "energyReduction1": "Energiereduzierung für Upgrade von Dreifach- auf Vierfach-Effekt",
+    "energyReduction2": "Energiereduzierung für Upgrade von Doppel- auf Vierfach-Effekt"
+  }
+}
+

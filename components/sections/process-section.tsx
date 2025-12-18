@@ -7,200 +7,199 @@ type ProcessType = 'ExtraAcid' | 'ExtrAlkali' | 'HCl';
 
 export function ProcessSection() {
   const [activeProcess, setActiveProcess] = useState<ProcessType>('ExtraAcid');
+  const t = useTranslations('process');
 
   const processInfo: Record<ProcessType, React.ReactNode> = {
     ExtraAcid: (
-      <div className="text-left space-y-6 max-w-4xl mx-auto">
-        <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-          <p className="text-lg font-semibold text-gray-800">
-            ExtrAcid® is the first system that recycles waste sulfuric acid under pressure using innovative patented loop systems producing high concentrated acid and process steam at the same time.
+      <div className="text-left space-y-4 sm:space-y-6 max-w-4xl mx-auto">
+        <div className="bg-blue-50 p-3 sm:p-4 rounded-lg border-l-4 border-blue-600">
+          <p className="text-base sm:text-lg font-semibold text-gray-800">
+            {t('extraAcid.summary')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">INTRODUCTION</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.introduction')}</h4>
           <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            Waste sulfuric acid from various chemical processes has to be recycled by removing water and other impurities from the acid. By dewatering the concentration rides from less than 15% to higher values of typically 98%.
+            {t('extraAcid.introText1')}
           </p>
           <p className="text-sm sm:text-base text-gray-600">
-            Typical Acid concentration systems (SAC or SAS or dewatering systems) are separated in to lower concentration of up to 70%, medium and high concentration systems.
+            {t('extraAcid.introText2')}
           </p>
         </div>
 
         <div className="bg-green-50 p-3 sm:p-4 rounded-lg">
-          <p className="text-sm sm:text-base font-semibold text-gray-800">SYSTEM WORKS FOR ALKALINE, HF OF HCL AS WELL</p>
+          <p className="text-sm sm:text-base font-semibold text-gray-800">{t('extraAcid.systemWorks')}</p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">BENEFITS AT A GLANCE</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.benefitsTitle')}</h4>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm sm:text-base text-gray-600">
-            <li>• Energy recovery by steam production</li>
-            <li>• Innovative patented 2 loops design</li>
-            <li>• Flexible inlet concentration</li>
-            <li>• From 5 to 98%</li>
-            <li>• Handles impurities</li>
-            <li>• Small footprint</li>
-            <li>• Optimized capex and opex</li>
+            <li>• {t('extraAcid.benefits.energy')}</li>
+            <li>• {t('extraAcid.benefits.design')}</li>
+            <li>• {t('extraAcid.benefits.flexible')}</li>
+            <li>• {t('extraAcid.benefits.range')}</li>
+            <li>• {t('extraAcid.benefits.impurities')}</li>
+            <li>• {t('extraAcid.benefits.footprint')}</li>
+            <li>• {t('extraAcid.benefits.optimized')}</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">APPLICATIONS FOR ExtrAcid®</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.applicationsTitle')}</h4>
           <ul className="space-y-1 text-sm sm:text-base text-gray-600">
-            <li>• Titanium Dioxide</li>
-            <li>• Gas drying/purification</li>
-            <li>• Nitration processes</li>
-            <li>• Mining</li>
-            <li>• High purity acids</li>
+            <li>• {t('extraAcid.applications.titanium')}</li>
+            <li>• {t('extraAcid.applications.gas')}</li>
+            <li>• {t('extraAcid.applications.nitration')}</li>
+            <li>• {t('extraAcid.applications.mining')}</li>
+            <li>• {t('extraAcid.applications.purity')}</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">PATENTED DESIGN</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.patentedTitle')}</h4>
           <p className="text-sm sm:text-base text-gray-600">
-            The design of the ExtrAcid® system is patented covering the process including the loops for steam production and the usage of SIC material in the required pressure and temperature ranges.
+            {t('extraAcid.patentedText')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">TURN ACID WATER INTO PROCESS STEAM</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.steamTitle')}</h4>
           <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            Well-known is that recycling by vacuum evaporation of water consumes high energy resources. Although the energy consumption has been optimized in recent years valuable energy cannot be recovered due to low temperature levels.
+            {t('extraAcid.steamText1')}
           </p>
           <p className="text-sm sm:text-base text-gray-600">
-            The innovative ExtrAcid® process system is the first that can significantly reduce the energy consumption by producing valuable process steam.
+            {t('extraAcid.steamText2')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">IMPURITIES</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.impuritiesTitle')}</h4>
           <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            As waste sulfuric acid has many different sources it often contains organic or inorganic impurities other than water which have to be removed. Dependent on the nature of the process typical examples are HF, H₂O₂ or Fe.
+            {t('extraAcid.impuritiesText1')}
           </p>
           <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            It is important to know the kind and amount of the impurities before the design of the ExtrAcid® system. Some organics like H₂O₂ are decomposed into water and O₂ if the temperature is increased sufficiently. Others like HF stay in the vapor phase and can be separated this way. Some need special treatment like purification by crystallization.
+            {t('extraAcid.impuritiesText2')}
           </p>
           <p className="text-sm sm:text-base text-gray-600">
-            ExtrAcid® can offer many solutions to this wide range of challenges. Due to the universal chemical resistance of our main material, it is suitable for HF applications, due to high temperatures it burns many organics into its elements or separates by evaporation.
+            {t('extraAcid.impuritiesText3')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">PURIFICATION BY CRYSTALLISATION</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.crystallisationTitle')}</h4>
           <p className="text-sm sm:text-base text-gray-600">
-            A usual task for the treatment of waste acid coming from the production of Titanium Dioxide is the Fe load in the waste. It can be reduced by forming Ferrous sulphate Monohydrate. These kind of processes can easily be added to the ExtrAcid® system.
+            {t('extraAcid.crystallisationText')}
           </p>
         </div>
       </div>
     ),
     ExtrAlkali: (
-      <div className="text-left space-y-6 max-w-4xl mx-auto">
-        <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-          <p className="text-lg font-semibold text-gray-800">
-            ExtrAlkali® is the first system that significantly reduces the Capex – Opex for the concentrating of Caustic Soda using Silicone Carbide to reach a high concentrated caustic soda and process steam at the same time.
+      <div className="text-left space-y-4 sm:space-y-6 max-w-4xl mx-auto">
+        <div className="bg-blue-50 p-3 sm:p-4 rounded-lg border-l-4 border-blue-600">
+          <p className="text-base sm:text-lg font-semibold text-gray-800">
+            {t('extrAlkali.summary')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">INTRODUCTION</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.introduction')}</h4>
           <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            Caustic soda from the electrolysis has to be concentrated by removing water and other impurities. By using SIC the End product is Nikel free even at high concentrations up to 99%. A tailor-made plant:
+            {t('extrAlkali.introText1')}
           </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-            <li>No standard concept – designed according to given situation using modules</li>
-            <li>According to available utilities on site</li>
-            <li>Optimizing OPEX and CAPEX</li>
-            <li>50, 70 or 99% Concentration</li>
+          <ul className="list-disc list-inside space-y-2 text-sm sm:text-base text-gray-600 ml-4">
+            <li>{t('extrAlkali.introItems.noStandard')}</li>
+            <li>{t('extrAlkali.introItems.utilities')}</li>
+            <li>{t('extrAlkali.introItems.opex')}</li>
+            <li>{t('extrAlkali.introItems.concentration')}</li>
           </ul>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg">
-          <p className="font-semibold text-gray-800">SYSTEM WORKS FOR ACID, HF OF HCL AS WELL.</p>
+        <div className="bg-green-50 p-3 sm:p-4 rounded-lg">
+          <p className="text-sm sm:text-base font-semibold text-gray-800">{t('extrAlkali.systemWorks')}</p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">BENEFITS AT A GLANCE</h4>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-600">
-            <li>• No Nikel Pick up</li>
-            <li>• Energy recovery by steam production</li>
-            <li>• Up to 99%</li>
-            <li>• Handles impurities</li>
-            <li>• Small footprint</li>
-            <li>• Optimized capex and opex</li>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.benefitsTitle')}</h4>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm sm:text-base text-gray-600">
+            <li>• {t('extrAlkali.benefits.nickel')}</li>
+            <li>• {t('extrAlkali.benefits.energy')}</li>
+            <li>• {t('extrAlkali.benefits.upTo')}</li>
+            <li>• {t('extrAlkali.benefits.impurities')}</li>
+            <li>• {t('extrAlkali.benefits.footprint')}</li>
+            <li>• {t('extrAlkali.benefits.optimized')}</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">APPLICATIONS</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.applicationsTitle')}</h4>
           <ul className="space-y-1 text-sm sm:text-base text-gray-600">
-            <li>• NaOH/ KOH up to 99%</li>
-            <li>• H₂SO₄ up to 98% (chlorine drying)</li>
-            <li>• HCl up to 25%</li>
-            <li>• CaCl₂ up to 72%</li>
-            <li>• HF up to 40%</li>
+            <li>• {t('extrAlkali.applications.naoh')}</li>
+            <li>• {t('extrAlkali.applications.h2so4')}</li>
+            <li>• {t('extrAlkali.applications.hcl')}</li>
+            <li>• {t('extrAlkali.applications.cacl2')}</li>
+            <li>• {t('extrAlkali.applications.hf')}</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">PATENTED DESIGN</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.patentedTitle')}</h4>
           <p className="text-sm sm:text-base text-gray-600">
-            The design of the ExtrAlkali® system is patented for up to 6 effects and the usage of SIC material in the required pressure and temperature ranges.
+            {t('extrAlkali.patentedText')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">TURN PROCESS WATER INTO PROCESS STEAM</h4>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.steamTitle')}</h4>
           <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            It is well known that the current concentration systems, by evaporation of water, have a high energy consumption. Although the energy consumption has been optimized in recent years valuable energy cannot be recovered due to low temperature levels.
+            {t('extrAlkali.steamText1')}
           </p>
           <p className="text-sm sm:text-base text-gray-600">
-            The innovative ExtrAlkali® process system is the first that can significantly reduce the energy consumption by producing valuable process steam.
+            {t('extrAlkali.steamText2')}
           </p>
         </div>
       </div>
     ),
     HCl: (
-      <div className="text-left space-y-6 max-w-4xl mx-auto">
+      <div className="text-left space-y-4 sm:space-y-6 max-w-4xl mx-auto">
         <div>
-          <h4 className="text-2xl font-bold text-gray-800 mb-4 text-center">HCL SYNTHESIS</h4>
-          <p className="text-gray-600 mb-4">
-            During the HCL synthesis chlorine reacts with water to HCL at temperatures of more than 1,500 °C. The process requires the addition of heat, which is removed from the system later on.
+          <h4 className="text-2xl font-bold text-gray-800 mb-4 text-center">{t('hcl.title')}</h4>
+          <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
+            {t('hcl.text1')}
           </p>
           <p className="text-sm sm:text-base text-gray-600">
-            For a safe operation the process is handled in graphite units. A reference list of more than 100 applications is available.
+            {t('hcl.text2')}
           </p>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">Turn key units incl. the process engineering</h4>
-          <p className="text-gray-600 mb-4">
-            We offer simple furnaces, three in one units and complete turn key units including the process engineering
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('hcl.turnKeyTitle')}</h4>
+          <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
+            {t('hcl.turnKeyText')}
           </p>
           
-          <h5 className="text-lg font-semibold text-gray-800 mb-3">Advantages of the three in one units:</h5>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-600 mb-4">
-            <li>• Synthesis, absorption and cooling in one unit</li>
-            <li>• Improved efficiency</li>
-            <li>• Long life time</li>
-            <li>• Turn key units on request</li>
-            <li>• Compatible with existing plants</li>
-            <li>• More than 100 references</li>
+          <h5 className="text-lg font-semibold text-gray-800 mb-2 sm:mb-3">{t('hcl.advantagesTitle')}</h5>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm sm:text-base text-gray-600 mb-4">
+            <li>• {t('hcl.advantages.synthesis')}</li>
+            <li>• {t('hcl.advantages.efficiency')}</li>
+            <li>• {t('hcl.advantages.lifetime')}</li>
+            <li>• {t('hcl.advantages.request')}</li>
+            <li>• {t('hcl.advantages.compatible')}</li>
+            <li>• {t('hcl.advantages.references')}</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">Technical Data</h4>
-          <ul className="space-y-2 text-gray-600">
-            <li>• Modular structure of different sizes</li>
-            <li>• Steam as a by-product</li>
-            <li>• Firing from below</li>
+          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('hcl.technicalTitle')}</h4>
+          <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+            <li>• {t('hcl.technical.modular')}</li>
+            <li>• {t('hcl.technical.steam')}</li>
+            <li>• {t('hcl.technical.firing')}</li>
           </ul>
         </div>
       </div>
     ),
   };
-
-  const t = useTranslations('process');
 
   return (
     <section className="py-16 md:py-24 bg-gray-50">

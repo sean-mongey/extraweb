@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Home",
+    "revamping": "Revamping",
+    "pilot": "Pilot",
+    "about": "About Us"
+  },
+  "hero": {
+    "title": "Welcome to ExtraWeb",
+    "subtitle": "Innovative Solutions for Your Needs"
+  },
+  "process": {
+    "title": "Our Processes",
+    "subtitle": "Explore our innovative processing solutions",
+    "extraAcid": {
+      "summary": "ExtrAcid® is the first system that recycles waste sulfuric acid under pressure using innovative patented loop systems producing high concentrated acid and process steam at the same time.",
+      "introduction": "INTRODUCTION",
+      "introText1": "Waste sulfuric acid from various chemical processes has to be recycled by removing water and other impurities from the acid. By dewatering the concentration rides from less than 15% to higher values of typically 98%.",
+      "introText2": "Typical Acid concentration systems (SAC or SAS or dewatering systems) are separated in to lower concentration of up to 70%, medium and high concentration systems.",
+      "systemWorks": "SYSTEM WORKS FOR ALKALINE, HF OF HCL AS WELL",
+      "benefitsTitle": "BENEFITS AT A GLANCE",
+      "benefits": {
+        "energy": "Energy recovery by steam production",
+        "design": "Innovative patented 2 loops design",
+        "flexible": "Flexible inlet concentration",
+        "range": "From 5 to 98%",
+        "impurities": "Handles impurities",
+        "footprint": "Small footprint",
+        "optimized": "Optimized capex and opex"
+      },
+      "applicationsTitle": "APPLICATIONS FOR ExtrAcid®",
+      "applications": {
+        "titanium": "Titanium Dioxide",
+        "gas": "Gas drying/purification",
+        "nitration": "Nitration processes",
+        "mining": "Mining",
+        "purity": "High purity acids"
+      },
+      "patentedTitle": "PATENTED DESIGN",
+      "patentedText": "The design of the ExtrAcid® system is patented covering the process including the loops for steam production and the usage of SIC material in the required pressure and temperature ranges.",
+      "steamTitle": "TURN ACID WATER INTO PROCESS STEAM",
+      "steamText1": "Well-known is that recycling by vacuum evaporation of water consumes high energy resources. Although the energy consumption has been optimized in recent years valuable energy cannot be recovered due to low temperature levels.",
+      "steamText2": "The innovative ExtrAcid® process system is the first that can significantly reduce the energy consumption by producing valuable process steam.",
+      "impuritiesTitle": "IMPURITIES",
+      "impuritiesText1": "As waste sulfuric acid has many different sources it often contains organic or inorganic impurities other than water which have to be removed. Dependent on the nature of the process typical examples are HF, H₂O₂ or Fe.",
+      "impuritiesText2": "It is important to know the kind and amount of the impurities before the design of the ExtrAcid® system. Some organics like H₂O₂ are decomposed into water and O₂ if the temperature is increased sufficiently. Others like HF stay in the vapor phase and can be separated this way. Some need special treatment like purification by crystallization.",
+      "impuritiesText3": "ExtrAcid® can offer many solutions to this wide range of challenges. Due to the universal chemical resistance of our main material, it is suitable for HF applications, due to high temperatures it burns many organics into its elements or separates by evaporation.",
+      "crystallisationTitle": "PURIFICATION BY CRYSTALLISATION",
+      "crystallisationText": "A usual task for the treatment of waste acid coming from the production of Titanium Dioxide is the Fe load in the waste. It can be reduced by forming Ferrous sulphate Monohydrate. These kind of processes can easily be added to the ExtrAcid® system."
+    },
+    "extrAlkali": {
+      "summary": "ExtrAlkali® is the first system that significantly reduces the Capex – Opex for the concentrating of Caustic Soda using Silicone Carbide to reach a high concentrated caustic soda and process steam at the same time.",
+      "introduction": "INTRODUCTION",
+      "introText1": "Caustic soda from the electrolysis has to be concentrated by removing water and other impurities. By using SIC the End product is Nikel free even at high concentrations up to 99%. A tailor-made plant:",
+      "introItems": {
+        "noStandard": "No standard concept – designed according to given situation using modules",
+        "utilities": "According to available utilities on site",
+        "opex": "Optimizing OPEX and CAPEX",
+        "concentration": "50, 70 or 99% Concentration"
+      },
+      "systemWorks": "SYSTEM WORKS FOR ACID, HF OF HCL AS WELL.",
+      "benefitsTitle": "BENEFITS AT A GLANCE",
+      "benefits": {
+        "nickel": "No Nikel Pick up",
+        "energy": "Energy recovery by steam production",
+        "upTo": "Up to 99%",
+        "impurities": "Handles impurities",
+        "footprint": "Small footprint",
+        "optimized": "Optimized capex and opex"
+      },
+      "applicationsTitle": "APPLICATIONS",
+      "applications": {
+        "naoh": "NaOH/ KOH up to 99%",
+        "h2so4": "H₂SO₄ up to 98% (chlorine drying)",
+        "hcl": "HCl up to 25%",
+        "cacl2": "CaCl₂ up to 72%",
+        "hf": "HF up to 40%"
+      },
+      "patentedTitle": "PATENTED DESIGN",
+      "patentedText": "The design of the ExtrAlkali® system is patented for up to 6 effects and the usage of SIC material in the required pressure and temperature ranges.",
+      "steamTitle": "TURN PROCESS WATER INTO PROCESS STEAM",
+      "steamText1": "It is well known that the current concentration systems, by evaporation of water, have a high energy consumption. Although the energy consumption has been optimized in recent years valuable energy cannot be recovered due to low temperature levels.",
+      "steamText2": "The innovative ExtrAlkali® process system is the first that can significantly reduce the energy consumption by producing valuable process steam."
+    },
+    "hcl": {
+      "title": "HCL SYNTHESIS",
+      "text1": "During the HCL synthesis chlorine reacts with water to HCL at temperatures of more than 1,500 °C. The process requires the addition of heat, which is removed from the system later on.",
+      "text2": "For a safe operation the process is handled in graphite units. A reference list of more than 100 applications is available.",
+      "turnKeyTitle": "Turn key units incl. the process engineering",
+      "turnKeyText": "We offer simple furnaces, three in one units and complete turn key units including the process engineering",
+      "advantagesTitle": "Advantages of the three in one units:",
+      "advantages": {
+        "synthesis": "Synthesis, absorption and cooling in one unit",
+        "efficiency": "Improved efficiency",
+        "lifetime": "Long life time",
+        "request": "Turn key units on request",
+        "compatible": "Compatible with existing plants",
+        "references": "More than 100 references"
+      },
+      "technicalTitle": "Technical Data",
+      "technical": {
+        "modular": "Modular structure of different sizes",
+        "steam": "Steam as a by-product",
+        "firing": "Firing from below"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Process Comparison",
+    "subtitle": "Compare ExtraAcid and ExtrAlkali processes"
+  },
+  "footer": {
+    "description": "Innovative solutions for your business needs.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Subscribe to our newsletter for updates.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© {year} ExtraWeb. All rights reserved."
+  },
+  "about": {
+    "title": "About Us",
+    "companyName": "ExtrAsys",
+    "description1": "Extrasys was set up to bring the ExtrAcid® and ExtrAlkali® systems onto the market. The company brings together the experience of 30 years in the chemical industry with materials such as graphite, silicone carbide and PTFE.",
+    "description2": "These years of experience have also highlighted the gaps and limitations of today's technology. With the ExtrAcid® and ExtrAlkali® systems, the limits of today's technology in the recycling of waste acid and soda are being redefined.",
+    "location": "Extasys is located in Switzerland with offices in France, Germany, China and India.",
+    "pilotPlant": "At our pilot plant in France all possible processes can be tested / demonstrated."
+  },
+  "pilot": {
+    "title": "Pilot Plant",
+    "message": "This page is still in the making."
+  },
+  "revamping": {
+    "title": "ExtrAlkali® Revamping",
+    "subtitle": "Patented revamping module for NaOH & KOH concentration unit by Chem-Eng SASU and Wilk Graphite GmbH",
+    "aboutTitle": "About ExtrAlkali®",
+    "aboutDescription": "ExtrAlkali® is a brand born from fruitful collaboration of two internationally renowned companies",
+    "brandFor": "A brand for process solutions for the chlor-alkali industry such as:",
+    "brandItems": {
+      "caustic": "Caustic evaporation / flaking plant",
+      "sulfuric": "Sulfuric acid concentration plant",
+      "hcl": "HCl synthesis plant",
+      "calcium": "Calcium chloride production plant"
+    },
+    "tailorMadeTitle": "Tailor Made Plant",
+    "tailorMadeItems": {
+      "noStandard": "No standard concept – designed according to given situation using modules",
+      "utilities": "According to available utilities on site (cooling water, steam, etc.)",
+      "opex": "Optimizing OPEX according energy prices (gas, steam, etc.)",
+      "capex": "CAPEX consideration"
+    },
+    "moduleTitle": "Revamping Module",
+    "moduleItems": {
+      "item1": "Typical revamping: upgrade from a double or triple effect system to a quadruple effect system",
+      "item2": "By high temperature only use of SIC equipment to grant an excellent product quality (more or less no Ni pick up) and a long life of all equipment.",
+      "item3": "Up to 5 effects available to reduce energy consumptions / CO₂ emissions",
+      "item4": "ExtrAlkali is the only brand offering such plant concept."
+    },
+    "benefitsTitle": "Revamping Benefits",
+    "benefitsItems": {
+      "item1": "Possibility to revamp existing double effects or triple effects evaporation to a quadruple effects system (very low space requirement)",
+      "item2": "Payback less than two years even considering an additional thermal oil heating system",
+      "item3": "Attractive concept especially in country with high energy costs and CO₂ emission taxes"
+    },
+    "installationTitle": "Installation Options",
+    "installationItems": {
+      "item1": "Additional effect can be delivered SKID mounted and be installed next to the existing evaporation unit",
+      "item2": "Additional effect can be installed in the existing building (if space available)",
+      "item3": "Thermal oil heating unit is required"
+    },
+    "energySavings": "Energy Savings",
+    "energyReduction1": "Energy reduction for triple to quadruple effect upgrade",
+    "energyReduction2": "Energy reduction for double to quadruple effect upgrade"
+  }
+}
+
