@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 type ProcessType = 'ExtraAcid' | 'ExtrAlkali' | 'HCl';
 
@@ -199,15 +200,17 @@ export function ProcessSection() {
     ),
   };
 
+  const t = useTranslations('process');
+
   return (
     <section className="py-16 md:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Our Processes
+            {t('title')}
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-            Explore our innovative processing solutions
+            {t('subtitle')}
           </p>
         </div>
 

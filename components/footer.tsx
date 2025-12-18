@@ -1,9 +1,21 @@
 'use client';
 
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'react-feather';
+import { Link } from '@/src/i18n/routing';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
+const footerLinks = [
+  { key: 'home', href: '/' },
+  { key: 'revamping', href: '/revamping' },
+  { key: 'pilot', href: '/pilot' },
+  { key: 'about', href: '/about' },
+];
+
 export function Footer() {
+  const t = useTranslations('footer');
+  const tNav = useTranslations('nav');
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +31,7 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-400">
-              Innovative solutions for your business needs.
+              {t('description')}
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -35,33 +47,20 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-bold mb-4">{t('quickLinks')}</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="/" className="hover:text-white transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="/revamping" className="hover:text-white transition-colors">
-                  Revamping
-                </a>
-              </li>
-              <li>
-                <a href="/pilot" className="hover:text-white transition-colors">
-                  Pilot
-                </a>
-              </li>
-              <li>
-                <a href="/about" className="hover:text-white transition-colors">
-                  About Us
-                </a>
-              </li>
+              {footerLinks.map(link => (
+                <li key={link.key}>
+                  <Link href={link.href} className="hover:text-white transition-colors">
+                    {tNav(link.key)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Contact</h3>
+            <h3 className="text-lg font-bold mb-4">{t('contact')}</h3>
             <p className="text-gray-400 flex items-start">
               <MapPin className="mr-2 mt-1 flex-shrink-0" size={16} /> 
               <span>Teichstraße 14<br/>79539 Lörrach<br/>Germany</span>
@@ -86,28 +85,28 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Newsletter</h3>
+            <h3 className="text-lg font-bold mb-4">{t('newsletter')}</h3>
             <p className="text-gray-400 mb-4">
-              Subscribe to our newsletter for updates.
+              {t('newsletterDescription')}
             </p>
             <form className="flex flex-col sm:flex-row">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder={t('emailPlaceholder')}
                 className="px-4 py-2 rounded-md sm:rounded-l-md sm:rounded-r-none w-full text-gray-900 mb-2 sm:mb-0"
               />
               <button
                 type="submit"
                 className="bg-blue-600 px-4 py-2 rounded-md sm:rounded-l-none sm:rounded-r-md hover:bg-blue-700 transition-all whitespace-nowrap"
               >
-                Subscribe
+                {t('subscribe')}
               </button>
             </form>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} ExtraWeb. All rights reserved.</p>
+          <p>{t('copyright', { year: new Date().getFullYear() })}</p>
         </div>
       </div>
     </footer>

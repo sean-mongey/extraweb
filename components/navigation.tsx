@@ -1,18 +1,21 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import { Link } from '@/src/i18n/routing';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { LanguageSwitcher } from '@/components/ui/language-switcher';
 
 const navLinks = [
-  { name: 'Home', href: '/' },
-  { name: 'Revamping', href: '/revamping' },
-  { name: 'Pilot', href: '/pilot' },
-  { name: 'About Us', href: '/about' },
+  { key: 'home', href: '/' },
+  { key: 'revamping', href: '/revamping' },
+  { key: 'pilot', href: '/pilot' },
+  { key: 'about', href: '/about' },
 ];
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const t = useTranslations('nav');
 
   return (
     <nav className="bg-gray-100 shadow-lg sticky top-0 z-50">
@@ -35,17 +38,19 @@ export function Navigation() {
           <div className="hidden md:flex md:items-center md:space-x-8">
             {navLinks.map(link => (
               <Link
-                key={link.name}
+                key={link.key}
                 href={link.href}
                 className="text-gray-800 px-3 py-2 rounded-md text-sm font-medium hover:text-gray-900 hover:bg-gray-200 transition-all duration-200"
               >
-                {link.name}
+                {t(link.key)}
               </Link>
             ))}
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile Navigation */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher />
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-gray-800 hover:text-gray-900 p-2"
@@ -90,12 +95,12 @@ export function Navigation() {
             <div className="flex flex-col space-y-2">
               {navLinks.map(link => (
                 <Link
-                  key={link.name}
+                  key={link.key}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-gray-800 px-4 py-2 rounded-md text-base font-medium hover:text-gray-900 hover:bg-gray-200 transition-all duration-200"
                 >
-                  {link.name}
+                  {t(link.key)}
                 </Link>
               ))}
             </div>

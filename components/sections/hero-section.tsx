@@ -1,6 +1,10 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 export function HeroSection() {
+  const t = useTranslations('hero');
+
   return (
     <section className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden bg-gray-900">
       <div className="absolute inset-0 flex items-center justify-center">
@@ -20,10 +24,10 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-center">
         <div className="text-center text-white px-4" data-aos="fade-up">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 drop-shadow-lg">
-            Welcome to ExtraWeb
+            {t('title')}
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md px-2">
-            Innovative Solutions for Your Needs
+            {t('subtitle')}
           </p>
         </div>
       </div>

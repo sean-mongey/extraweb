@@ -1,16 +1,9 @@
-import { Navigation } from '@/components/navigation';
-import { Footer } from '@/components/footer';
-import { AOSInit } from '@/components/aos-init';
 import { Card } from '@/components/ui/card';
 
 export default function RevampingPage() {
   return (
-    <>
-      <AOSInit />
-      <main className="min-h-screen">
-        <Navigation />
-        
-        <section className="py-16 md:py-24 bg-gray-50">
+    <main className="min-h-screen">
+      <section className="py-16 md:py-24 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12" data-aos="fade-up">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -165,10 +158,7 @@ export default function RevampingPage() {
             </div>
           </div>
         </section>
-
-        <Footer />
       </main>
-    </>
   );
 }
 

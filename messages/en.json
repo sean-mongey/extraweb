@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "revamping": "Revamping",
+    "pilot": "Pilot",
+    "about": "About Us"
+  },
+  "hero": {
+    "title": "Welcome to ExtraWeb",
+    "subtitle": "Innovative Solutions for Your Needs"
+  },
+  "process": {
+    "title": "Our Processes",
+    "subtitle": "Explore our innovative processing solutions"
+  },
+  "comparison": {
+    "title": "Process Comparison",
+    "subtitle": "Compare ExtraAcid and ExtrAlkali processes"
+  },
+  "footer": {
+    "description": "Innovative solutions for your business needs.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Subscribe to our newsletter for updates.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© {year} ExtraWeb. All rights reserved."
+  }
+}
+
