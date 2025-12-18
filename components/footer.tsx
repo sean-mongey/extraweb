@@ -1,6 +1,7 @@
 'use client';
 
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'react-feather';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -8,7 +9,15 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">ExtraWeb</h3>
+            <div className="mb-4">
+              <Image
+                src="/images/wilk-logo.jpg"
+                alt="Logo"
+                width={180}
+                height={60}
+                className="h-14 w-auto object-contain brightness-0 invert"
+              />
+            </div>
             <p className="text-gray-400">
               Innovative solutions for your business needs.
             </p>
@@ -34,8 +43,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/rev" className="hover:text-white transition-colors">
-                  Rev
+                <a href="/revamping" className="hover:text-white transition-colors">
+                  Revamping
                 </a>
               </li>
               <li>
@@ -53,14 +62,26 @@ export function Footer() {
 
           <div>
             <h3 className="text-lg font-bold mb-4">Contact</h3>
-            <p className="text-gray-400 flex items-center">
-              <MapPin className="mr-2" size={16} /> Address TBD
+            <p className="text-gray-400 flex items-start">
+              <MapPin className="mr-2 mt-1 flex-shrink-0" size={16} /> 
+              <span>Teichstraße 14<br/>79539 Lörrach<br/>Germany</span>
             </p>
             <p className="text-gray-400 flex items-center mt-2">
-              <Phone className="mr-2" size={16} /> Phone TBD
+              <Phone className="mr-2 flex-shrink-0" size={16} /> 
+              <a href="tel:+4976214221644" className="hover:text-white transition-colors">
+                +49 7621 42216-44
+              </a>
             </p>
             <p className="text-gray-400 flex items-center mt-2">
-              <Mail className="mr-2" size={16} /> Email TBD
+              <Mail className="mr-2 flex-shrink-0" size={16} /> 
+              <a href="mailto:info@wilk-graphite.com" className="hover:text-white transition-colors">
+                info@wilk-graphite.com
+              </a>
+            </p>
+            <p className="text-gray-400 mt-2">
+              <a href="https://www.wilk-graphite.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                www.wilk-graphite.com
+              </a>
             </p>
           </div>
 
@@ -69,15 +90,15 @@ export function Footer() {
             <p className="text-gray-400 mb-4">
               Subscribe to our newsletter for updates.
             </p>
-            <form className="flex">
+            <form className="flex flex-col sm:flex-row">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="px-4 py-2 rounded-l-md w-full text-gray-900"
+                className="px-4 py-2 rounded-md sm:rounded-l-md sm:rounded-r-none w-full text-gray-900 mb-2 sm:mb-0"
               />
               <button
                 type="submit"
-                className="bg-blue-600 px-4 py-2 rounded-r-md hover:bg-blue-700 transition-all"
+                className="bg-blue-600 px-4 py-2 rounded-md sm:rounded-l-none sm:rounded-r-md hover:bg-blue-700 transition-all whitespace-nowrap"
               >
                 Subscribe
               </button>

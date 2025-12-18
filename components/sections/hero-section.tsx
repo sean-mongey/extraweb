@@ -18,11 +18,11 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-50"></div>
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-center">
-        <div className="text-center text-white" data-aos="fade-up">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+        <div className="text-center text-white px-4" data-aos="fade-up">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 drop-shadow-lg">
             Welcome to ExtraWeb
           </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md">
+          <p className="text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto drop-shadow-md px-2">
             Innovative Solutions for Your Needs
           </p>
         </div>
