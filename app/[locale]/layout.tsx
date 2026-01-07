@@ -7,6 +7,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/src/i18n/config';
 import '../globals.css';
+import 'aos/dist/aos.css';
 
 export const metadata: Metadata = {
   title: 'ExtraWeb',
