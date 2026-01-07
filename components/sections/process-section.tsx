@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
 type ProcessType = 'ExtraAcid' | 'ExtrAlkali' | 'HCl';
@@ -8,6 +8,19 @@ type ProcessType = 'ExtraAcid' | 'ExtrAlkali' | 'HCl';
 export function ProcessSection() {
   const [activeProcess, setActiveProcess] = useState<ProcessType>('ExtraAcid');
   const t = useTranslations('process');
+
+  // Refresh AOS when process changes to recalculate scroll positions
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      import('aos').then((AOSModule) => {
+        const AOS = AOSModule.default;
+        // Small delay to allow DOM to update
+        setTimeout(() => {
+          AOS.refresh();
+        }, 100);
+      });
+    }
+  }, [activeProcess]);
 
   const processInfo: Record<ProcessType, React.ReactNode> = {
     ExtraAcid: (
@@ -253,7 +266,7 @@ export function ProcessSection() {
 
         {/* Process Content */}
         <div
-          className="bg-white p-4 sm:p-6 md:p-8 lg:p-12 rounded-lg shadow-md"
+          className="bg-white p-4 sm:p-6 md:p-8 lg:p-12 rounded-lg shadow-md min-h-[600px]"
           data-aos="fade-up"
           data-aos-delay="200"
         >
