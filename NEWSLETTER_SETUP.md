@@ -27,9 +27,6 @@ The newsletter subscription form sends data directly to a Power Automate webhook
         "email": {
             "type": "string"
         },
-        "gender": {
-            "type": "string"
-        },
         "preferredTitle": {
             "type": "string"
         },
@@ -105,8 +102,7 @@ In the "Add a row into a table" action, map the dynamic content:
 - **First Name** → `firstName` (from trigger body)
 - **Last Name** → `lastName` (from trigger body)
 - **Email** → `email` (from trigger body)
-- **Gender** → `gender` (from trigger body)
-- **Preferred Title** → `preferredTitle` (from trigger body)
+- **Preferred Title** → `preferredTitle` (from trigger body) - e.g., "Mr", "Mrs", "Dr", or custom if "other" selected
 - **Phone** → `phone` (from trigger body)
 - **Company** → `company` (from trigger body)
 - **Language** → `language` (from trigger body) - e.g., "en", "de", "fr"
@@ -179,7 +175,6 @@ If you want to create the Excel file with headers first:
    - First Name
    - Last Name
    - Email
-   - Gender
    - Preferred Title
    - Phone
    - Company

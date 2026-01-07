@@ -128,16 +128,20 @@
     "lastNamePlaceholder": "Dupont",
     "email": "E-mail",
     "emailPlaceholder": "jean.dupont@exemple.fr",
-    "gender": "Genre",
-    "genderPlaceholder": "Sélectionner le genre",
-    "genderOptions": {
-      "male": "Homme",
-      "female": "Femme",
-      "other": "Autre",
-      "preferNotToSay": "Je préfère ne pas le dire"
-    },
     "preferredTitle": "Titre préféré",
-    "preferredTitlePlaceholder": "par ex. Mx, Dr ou comment vous souhaitez être adressé",
+    "preferredTitlePlaceholder": "Sélectionner le titre",
+    "titleOptions": {
+      "mr": "M.",
+      "mrs": "Mme",
+      "miss": "Mlle",
+      "ms": "Mme",
+      "dr": "Dr",
+      "prof": "Prof.",
+      "mx": "Mx",
+      "other": "Autre"
+    },
+    "customTitle": "Titre personnalisé",
+    "customTitlePlaceholder": "Entrez votre titre préféré",
     "phone": "Numéro de téléphone",
     "phonePlaceholder": "+33 1 23 45 67 89",
     "company": "Nom de l'entreprise",
@@ -155,8 +159,8 @@
       "emailRequired": "L'e-mail est requis",
       "emailInvalid": "Veuillez entrer une adresse e-mail valide",
       "emailDuplicate": "Cet e-mail est déjà abonné",
-      "genderRequired": "Le genre est requis",
-      "preferredTitleRequired": "Le titre préféré est requis lors de la sélection de 'Autre'",
+      "preferredTitleRequired": "Le titre préféré est requis",
+      "customTitleRequired": "Le titre personnalisé est requis lors de la sélection de 'Autre'",
       "phoneInvalid": "Veuillez entrer un numéro de téléphone valide"
     }
   },

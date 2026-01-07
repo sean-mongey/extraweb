@@ -128,16 +128,20 @@
     "lastNamePlaceholder": "Mustermann",
     "email": "E-Mail",
     "emailPlaceholder": "max.mustermann@beispiel.de",
-    "gender": "Geschlecht",
-    "genderPlaceholder": "Geschlecht auswählen",
-    "genderOptions": {
-      "male": "Männlich",
-      "female": "Weiblich",
-      "other": "Andere",
-      "preferNotToSay": "Keine Angabe"
-    },
     "preferredTitle": "Bevorzugte Anrede",
-    "preferredTitlePlaceholder": "z.B. Mx, Dr oder wie Sie angesprochen werden möchten",
+    "preferredTitlePlaceholder": "Anrede auswählen",
+    "titleOptions": {
+      "mr": "Herr",
+      "mrs": "Frau",
+      "miss": "Fräulein",
+      "ms": "Frau",
+      "dr": "Dr.",
+      "prof": "Prof.",
+      "mx": "Mx",
+      "other": "Andere"
+    },
+    "customTitle": "Individuelle Anrede",
+    "customTitlePlaceholder": "Geben Sie Ihre bevorzugte Anrede ein",
     "phone": "Telefonnummer",
     "phonePlaceholder": "+49 123 456789",
     "company": "Firmenname",
@@ -155,8 +159,8 @@
       "emailRequired": "E-Mail ist erforderlich",
       "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
       "emailDuplicate": "Diese E-Mail ist bereits angemeldet",
-      "genderRequired": "Geschlecht ist erforderlich",
-      "preferredTitleRequired": "Bevorzugte Anrede ist erforderlich, wenn 'Andere' ausgewählt wird",
+      "preferredTitleRequired": "Bevorzugte Anrede ist erforderlich",
+      "customTitleRequired": "Individuelle Anrede ist erforderlich, wenn 'Andere' ausgewählt wird",
       "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer ein"
     }
   },

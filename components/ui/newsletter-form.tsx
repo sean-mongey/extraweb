@@ -8,8 +8,8 @@ interface NewsletterFormData {
   firstName: string;
   lastName: string;
   email: string;
-  gender: string;
-  preferredTitle?: string;
+  preferredTitle: string;
+  customTitle?: string;
   phone?: string;
   company?: string;
 }
@@ -26,8 +26,8 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
     firstName: '',
     lastName: '',
     email: '',
-    gender: '',
     preferredTitle: '',
+    customTitle: '',
     phone: '',
     company: '',
   });
@@ -52,11 +52,11 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = t('errors.emailInvalid');
     }
-    if (!formData.gender) {
-      newErrors.gender = t('errors.genderRequired');
-    }
-    if ((formData.gender === 'other' || formData.gender === 'preferNotToSay') && !formData.preferredTitle?.trim()) {
+    if (!formData.preferredTitle) {
       newErrors.preferredTitle = t('errors.preferredTitleRequired');
+    }
+    if (formData.preferredTitle === 'other' && !formData.customTitle?.trim()) {
+      newErrors.customTitle = t('errors.customTitleRequired');
     }
     if (formData.phone && !/^[\d\s\-\+\(\)]+$/.test(formData.phone)) {
       newErrors.phone = t('errors.phoneInvalid');
@@ -87,8 +87,7 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
           firstName: formData.firstName,
           lastName: formData.lastName,
           email: formData.email,
-          gender: formData.gender,
-          preferredTitle: formData.preferredTitle || '',
+          preferredTitle: formData.preferredTitle === 'other' ? formData.customTitle || '' : formData.preferredTitle,
           phone: formData.phone || '',
           company: formData.company || '',
           language: locale,
@@ -112,8 +111,8 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
             firstName: '',
             lastName: '',
             email: '',
-            gender: '',
             preferredTitle: '',
+            customTitle: '',
             phone: '',
             company: '',
           });
@@ -138,9 +137,9 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
   const handleChange = (field: keyof NewsletterFormData, value: string) => {
     setFormData(prev => {
       const updated = { ...prev, [field]: value };
-      // Clear preferredTitle if gender changes away from "other" or "preferNotToSay"
-      if (field === 'gender' && value !== 'other' && value !== 'preferNotToSay') {
-        updated.preferredTitle = '';
+      // Clear customTitle if preferredTitle changes away from "other"
+      if (field === 'preferredTitle' && value !== 'other') {
+        updated.customTitle = '';
       }
       return updated;
     });
@@ -148,9 +147,9 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
     if (errors[field]) {
       setErrors(prev => ({ ...prev, [field]: undefined }));
     }
-    // Clear preferredTitle error if gender changes away from "other" or "preferNotToSay"
-    if (field === 'gender' && value !== 'other' && value !== 'preferNotToSay' && errors.preferredTitle) {
-      setErrors(prev => ({ ...prev, preferredTitle: undefined }));
+    // Clear customTitle error if preferredTitle changes away from "other"
+    if (field === 'preferredTitle' && value !== 'other' && errors.customTitle) {
+      setErrors(prev => ({ ...prev, customTitle: undefined }));
     }
   };
 
@@ -233,6 +232,54 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
           </div>
 
           <div>
+            <label htmlFor="preferredTitle" className="block text-sm font-medium text-gray-700 mb-1">
+              {t('preferredTitle')} <span className="text-red-500">*</span>
+            </label>
+            <select
+              id="preferredTitle"
+              value={formData.preferredTitle}
+              onChange={(e) => handleChange('preferredTitle', e.target.value)}
+              className={`w-full px-4 py-2 border rounded-md text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                errors.preferredTitle ? 'border-red-500' : 'border-gray-300'
+              }`}
+            >
+              <option value="">{t('preferredTitlePlaceholder')}</option>
+              <option value="Mr">{t('titleOptions.mr')}</option>
+              <option value="Mrs">{t('titleOptions.mrs')}</option>
+              <option value="Miss">{t('titleOptions.miss')}</option>
+              <option value="Ms">{t('titleOptions.ms')}</option>
+              <option value="Dr">{t('titleOptions.dr')}</option>
+              <option value="Prof">{t('titleOptions.prof')}</option>
+              <option value="Mx">{t('titleOptions.mx')}</option>
+              <option value="other">{t('titleOptions.other')}</option>
+            </select>
+            {errors.preferredTitle && (
+              <p className="mt-1 text-sm text-red-500">{errors.preferredTitle}</p>
+            )}
+          </div>
+
+          {formData.preferredTitle === 'other' && (
+            <div>
+              <label htmlFor="customTitle" className="block text-sm font-medium text-gray-700 mb-1">
+                {t('customTitle')} <span className="text-red-500">*</span>
+              </label>
+              <input
+                type="text"
+                id="customTitle"
+                value={formData.customTitle || ''}
+                onChange={(e) => handleChange('customTitle', e.target.value)}
+                className={`w-full px-4 py-2 border rounded-md text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                  errors.customTitle ? 'border-red-500' : 'border-gray-300'
+                }`}
+                placeholder={t('customTitlePlaceholder')}
+              />
+              {errors.customTitle && (
+                <p className="mt-1 text-sm text-red-500">{errors.customTitle}</p>
+              )}
+            </div>
+          )}
+
+          <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
               {t('email')} <span className="text-red-500">*</span>
             </label>
@@ -241,59 +288,15 @@ export function NewsletterForm({ isOpen, onClose }: NewsletterFormProps) {
               id="email"
               value={formData.email}
               onChange={(e) => handleChange('email', e.target.value)}
-                className={`w-full px-4 py-2 border rounded-md text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                  errors.email ? 'border-red-500' : 'border-gray-300'
-                }`}
-                placeholder={t('emailPlaceholder')}
+              className={`w-full px-4 py-2 border rounded-md text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                errors.email ? 'border-red-500' : 'border-gray-300'
+              }`}
+              placeholder={t('emailPlaceholder')}
             />
             {errors.email && (
               <p className="mt-1 text-sm text-red-500">{errors.email}</p>
             )}
           </div>
-
-          <div>
-            <label htmlFor="gender" className="block text-sm font-medium text-gray-700 mb-1">
-              {t('gender')} <span className="text-red-500">*</span>
-            </label>
-            <select
-              id="gender"
-              value={formData.gender}
-              onChange={(e) => handleChange('gender', e.target.value)}
-                className={`w-full px-4 py-2 border rounded-md text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                  errors.gender ? 'border-red-500' : 'border-gray-300'
-                }`}
-            >
-              <option value="">{t('genderPlaceholder')}</option>
-              <option value="male">{t('genderOptions.male')}</option>
-              <option value="female">{t('genderOptions.female')}</option>
-              <option value="other">{t('genderOptions.other')}</option>
-              <option value="preferNotToSay">{t('genderOptions.preferNotToSay')}</option>
-            </select>
-            {errors.gender && (
-              <p className="mt-1 text-sm text-red-500">{errors.gender}</p>
-            )}
-          </div>
-
-          {(formData.gender === 'other' || formData.gender === 'preferNotToSay') && (
-            <div>
-              <label htmlFor="preferredTitle" className="block text-sm font-medium text-gray-700 mb-1">
-                {t('preferredTitle')} <span className="text-red-500">*</span>
-              </label>
-              <input
-                type="text"
-                id="preferredTitle"
-                value={formData.preferredTitle || ''}
-                onChange={(e) => handleChange('preferredTitle', e.target.value)}
-                className={`w-full px-4 py-2 border rounded-md text-gray-900 bg-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                  errors.preferredTitle ? 'border-red-500' : 'border-gray-300'
-                }`}
-                placeholder={t('preferredTitlePlaceholder')}
-              />
-              {errors.preferredTitle && (
-                <p className="mt-1 text-sm text-red-500">{errors.preferredTitle}</p>
-              )}
-            </div>
-          )}
 
           <div>
             <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
