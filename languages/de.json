@@ -119,6 +119,47 @@
     "subscribe": "Abonnieren",
     "copyright": "© {year} ExtraWeb. Alle Rechte vorbehalten."
   },
+  "newsletter": {
+    "formTitle": "Newsletter abonnieren",
+    "close": "Schließen",
+    "firstName": "Vorname",
+    "firstNamePlaceholder": "Max",
+    "lastName": "Nachname",
+    "lastNamePlaceholder": "Mustermann",
+    "email": "E-Mail",
+    "emailPlaceholder": "max.mustermann@beispiel.de",
+    "gender": "Geschlecht",
+    "genderPlaceholder": "Geschlecht auswählen",
+    "genderOptions": {
+      "male": "Männlich",
+      "female": "Weiblich",
+      "other": "Andere",
+      "preferNotToSay": "Keine Angabe"
+    },
+    "preferredTitle": "Bevorzugte Anrede",
+    "preferredTitlePlaceholder": "z.B. Mx, Dr oder wie Sie angesprochen werden möchten",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "+49 123 456789",
+    "company": "Firmenname",
+    "companyPlaceholder": "Beispiel GmbH",
+    "optional": "Optional",
+    "cancel": "Abbrechen",
+    "submit": "Abonnieren",
+    "submitting": "Wird gesendet...",
+    "successMessage": "Vielen Dank! Sie wurden erfolgreich für unseren Newsletter angemeldet.",
+    "errorMessage": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+    "duplicateMessage": "Diese E-Mail-Adresse ist bereits für unseren Newsletter angemeldet.",
+    "errors": {
+      "firstNameRequired": "Vorname ist erforderlich",
+      "lastNameRequired": "Nachname ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "emailDuplicate": "Diese E-Mail ist bereits angemeldet",
+      "genderRequired": "Geschlecht ist erforderlich",
+      "preferredTitleRequired": "Bevorzugte Anrede ist erforderlich, wenn 'Andere' ausgewählt wird",
+      "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer ein"
+    }
+  },
   "about": {
     "title": "Über uns",
     "companyName": "ExtrAsys",

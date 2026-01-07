@@ -119,6 +119,47 @@
     "subscribe": "Subscribe",
     "copyright": "© {year} ExtraWeb. All rights reserved."
   },
+  "newsletter": {
+    "formTitle": "Subscribe to Newsletter",
+    "close": "Close",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "email": "Email",
+    "emailPlaceholder": "john.doe@example.com",
+    "gender": "Gender",
+    "genderPlaceholder": "Select gender",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "preferNotToSay": "Prefer not to say"
+    },
+    "preferredTitle": "Preferred Title",
+    "preferredTitlePlaceholder": "e.g., Mx, Dr, or how you'd like to be addressed",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 234 567 8900",
+    "company": "Company Name",
+    "companyPlaceholder": "Acme Corporation",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "submit": "Subscribe",
+    "submitting": "Submitting...",
+    "successMessage": "Thank you! You have been successfully subscribed to our newsletter.",
+    "errorMessage": "An error occurred. Please try again later.",
+    "duplicateMessage": "This email address is already subscribed to our newsletter.",
+    "errors": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "emailDuplicate": "This email is already subscribed",
+      "genderRequired": "Gender is required",
+      "preferredTitleRequired": "Preferred title is required when selecting 'Other'",
+      "phoneInvalid": "Please enter a valid phone number"
+    }
+  },
   "about": {
     "title": "About Us",
     "companyName": "ExtrAsys",
