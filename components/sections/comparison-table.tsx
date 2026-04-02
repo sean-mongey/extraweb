@@ -5,13 +5,13 @@ import { useTranslations } from 'next-intl';
 const comparisonData = [
   {
     feature: 'Process Type',
-    extraAcid: 'Sulfuric Acid Concentration/Dewatering',
-    extrAlkali: 'Caustic Soda (NaOH) Concentration',
+    extraAcid: 'Acid Concentration/Dewatering',
+    extrAlkali: 'Caustic Soda Concentration',
   },
   {
     feature: 'Concentration Range',
-    extraAcid: '5% to 98% (Inlet: 5-50%, Outlet: 50-98%)',
-    extrAlkali: '30% to 98.5% (typically 32% to 99%)',
+    extraAcid: '5% to 98%',
+    extrAlkali: '30% to 98.5%',
   },
   {
     feature: 'Temperature Range',
@@ -25,13 +25,13 @@ const comparisonData = [
   },
   {
     feature: 'Energy Recovery',
-    extraAcid: 'Steam production (up to 10 bar), Energy recovery ratio: 70%',
-    extrAlkali: '25-35% energy saving in 4-step evaporation, Steam recovery',
+    extraAcid: 'Steam production (up to 10 bar), Energy recovery ratio up to 70%',
+    extrAlkali: 'Up to 48% energy saving with multiple effects, Steam recovery',
   },
   {
     feature: 'Design Features',
     extraAcid: 'Innovative patented 2 loops design, Pressure operation',
-    extrAlkali: 'Up to 5 effects available, 2-4 stage evaporation',
+    extrAlkali: 'Up to 8 effects available',
   },
   {
     feature: 'Key Benefits',
@@ -40,13 +40,13 @@ const comparisonData = [
   },
   {
     feature: 'Applications',
-    extraAcid: '• Titanium Dioxide<br/>• Gas drying/purification<br/>• Nitration processes<br/>• Mining<br/>• High purity acids<br/>• Works for Alkaline, HF or HCl as well',
-    extrAlkali: '• NaOH/KOH up to 99%<br/>• H₂SO₄ up to 98% (chlorine drying)<br/>• HCl up to 25%<br/>• CaCl₂ up to 72%<br/>• HF up to 40%<br/>• Works for Acid, HF or HCl as well',
+    extraAcid: '• Titanium Dioxide<br/>• Gas drying/purification<br/>• Nitration processes<br/>• Mining<br/>• High purity acids',
+    extrAlkali: '• NaOH up to 99%<br/>• KOH up to 99%<br/>• HCl up to 25%<br/>• CaCl₂ up to 72%',
   },
   {
     feature: 'Material',
-    extraAcid: 'NoMoCorr® SIC (Silicon Carbide) block heat exchangers',
-    extrAlkali: 'NoMoCorr® SIC (Silicon Carbide), PTFE for lower requirements',
+    extraAcid: 'NoMoCorr® SIC (Silicon Carbide)',
+    extrAlkali: 'NoMoCorr® SIC (Silicon Carbide)',
   },
   {
     feature: 'Flow Rates',
@@ -56,7 +56,7 @@ const comparisonData = [
   {
     feature: 'Special Features',
     extraAcid: '• Organics mostly decomposed at high evaporation temperatures<br/>• Purification by crystallization possible<br/>• Can handle HF applications',
-    extrAlkali: '• Revamping capability (2-3 effects to 4-5 effects)<br/>• Payback less than 2 years for revamping<br/>• Combined plants from 30% to 98.5%<br/>• Flaking or Prilling options',
+    extrAlkali: '• Payback less than 2 years for revamping<br/>• Flaking or Prilling options',
   },
 ];
 
@@ -89,7 +89,7 @@ export function ComparisonTable() {
               </h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-xs font-semibold text-gray-700 mb-1">ExtraAcid:</p>
+                  <p className="text-xs font-semibold text-gray-700 mb-1">ExtrAcid:</p>
                   <p
                     className="text-xs text-gray-600"
                     dangerouslySetInnerHTML={{ __html: item.extraAcid }}
@@ -118,7 +118,7 @@ export function ComparisonTable() {
                       Feature
                     </th>
                     <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-b">
-                      ExtraAcid
+                      ExtrAcid
                     </th>
                     <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-b">
                       ExtrAlkali

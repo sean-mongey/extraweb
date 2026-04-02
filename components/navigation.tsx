@@ -10,6 +10,7 @@ const navLinks = [
   { key: 'home', href: '/' },
   { key: 'revamping', href: '/revamping' },
   { key: 'pilot', href: '/pilot' },
+  { key: 'hcl', href: '/hcl-synthesis' },
   { key: 'about', href: '/about' },
 ];
 

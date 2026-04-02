@@ -2,11 +2,12 @@
   "nav": {
     "home": "Startseite",
     "revamping": "Modernisierung",
-    "pilot": "Pilot",
+    "pilot": "Pilotanlage",
+    "hcl": "HCL-Synthese",
     "about": "Über uns"
   },
   "hero": {
-    "title": "Willkommen bei ExtraWeb",
+    "title": "Willkommen bei ExtraSys",
     "subtitle": "Innovative Lösungen für Ihre Bedürfnisse"
   },
   "process": {
@@ -107,7 +108,7 @@
   },
   "comparison": {
     "title": "Prozessvergleich",
-    "subtitle": "Vergleichen Sie ExtraAcid und ExtrAlkali Prozesse"
+    "subtitle": "Vergleichen Sie ExtrAcid und ExtrAlkali Prozesse"
   },
   "footer": {
     "description": "Innovative Lösungen für Ihre Geschäftsbedürfnisse.",

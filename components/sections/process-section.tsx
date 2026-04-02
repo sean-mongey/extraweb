@@ -3,10 +3,10 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
-type ProcessType = 'ExtraAcid' | 'ExtrAlkali' | 'HCl';
+type ProcessType = 'ExtrAcid' | 'ExtrAlkali';
 
 export function ProcessSection() {
-  const [activeProcess, setActiveProcess] = useState<ProcessType>('ExtraAcid');
+  const [activeProcess, setActiveProcess] = useState<ProcessType>('ExtrAcid');
   const t = useTranslations('process');
 
   // Refresh AOS when process changes to recalculate scroll positions
@@ -23,9 +23,9 @@ export function ProcessSection() {
   }, [activeProcess]);
 
   const processInfo: Record<ProcessType, React.ReactNode> = {
-    ExtraAcid: (
+    ExtrAcid: (
       <div className="text-left space-y-4 sm:space-y-6 max-w-4xl mx-auto">
-        <div className="bg-blue-50 p-3 sm:p-4 rounded-lg border-l-4 border-blue-600">
+        <div className="bg-green-50 p-3 sm:p-4 rounded-lg border-l-4 border-green-600">
           <p className="text-base sm:text-lg font-semibold text-gray-800">
             {t('extraAcid.summary')}
           </p>
@@ -45,28 +45,30 @@ export function ProcessSection() {
           <p className="text-sm sm:text-base font-semibold text-gray-800">{t('extraAcid.systemWorks')}</p>
         </div>
 
-        <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.benefitsTitle')}</h4>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm sm:text-base text-gray-600">
-            <li>• {t('extraAcid.benefits.energy')}</li>
-            <li>• {t('extraAcid.benefits.design')}</li>
-            <li>• {t('extraAcid.benefits.flexible')}</li>
-            <li>• {t('extraAcid.benefits.range')}</li>
-            <li>• {t('extraAcid.benefits.impurities')}</li>
-            <li>• {t('extraAcid.benefits.footprint')}</li>
-            <li>• {t('extraAcid.benefits.optimized')}</li>
-          </ul>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div>
+            <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.benefitsTitle')}</h4>
+            <ul className="space-y-1 text-sm sm:text-base text-gray-600">
+              <li>• {t('extraAcid.benefits.energy')}</li>
+              <li>• {t('extraAcid.benefits.design')}</li>
+              <li>• {t('extraAcid.benefits.flexible')}</li>
+              <li>• {t('extraAcid.benefits.range')}</li>
+              <li>• {t('extraAcid.benefits.impurities')}</li>
+              <li>• {t('extraAcid.benefits.footprint')}</li>
+              <li>• {t('extraAcid.benefits.optimized')}</li>
+            </ul>
+          </div>
 
-        <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.applicationsTitle')}</h4>
-          <ul className="space-y-1 text-sm sm:text-base text-gray-600">
-            <li>• {t('extraAcid.applications.titanium')}</li>
-            <li>• {t('extraAcid.applications.gas')}</li>
-            <li>• {t('extraAcid.applications.nitration')}</li>
-            <li>• {t('extraAcid.applications.mining')}</li>
-            <li>• {t('extraAcid.applications.purity')}</li>
-          </ul>
+          <div>
+            <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.applicationsTitle')}</h4>
+            <ul className="space-y-1 text-sm sm:text-base text-gray-600">
+              <li>• {t('extraAcid.applications.titanium')}</li>
+              <li>• {t('extraAcid.applications.gas')}</li>
+              <li>• {t('extraAcid.applications.nitration')}</li>
+              <li>• {t('extraAcid.applications.mining')}</li>
+              <li>• {t('extraAcid.applications.purity')}</li>
+            </ul>
+          </div>
         </div>
 
         <div>
@@ -109,7 +111,7 @@ export function ProcessSection() {
     ),
     ExtrAlkali: (
       <div className="text-left space-y-4 sm:space-y-6 max-w-4xl mx-auto">
-        <div className="bg-blue-50 p-3 sm:p-4 rounded-lg border-l-4 border-blue-600">
+        <div className="bg-green-50 p-3 sm:p-4 rounded-lg border-l-4 border-green-600">
           <p className="text-base sm:text-lg font-semibold text-gray-800">
             {t('extrAlkali.summary')}
           </p>
@@ -132,27 +134,29 @@ export function ProcessSection() {
           <p className="text-sm sm:text-base font-semibold text-gray-800">{t('extrAlkali.systemWorks')}</p>
         </div>
 
-        <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.benefitsTitle')}</h4>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm sm:text-base text-gray-600">
-            <li>• {t('extrAlkali.benefits.nickel')}</li>
-            <li>• {t('extrAlkali.benefits.energy')}</li>
-            <li>• {t('extrAlkali.benefits.upTo')}</li>
-            <li>• {t('extrAlkali.benefits.impurities')}</li>
-            <li>• {t('extrAlkali.benefits.footprint')}</li>
-            <li>• {t('extrAlkali.benefits.optimized')}</li>
-          </ul>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div>
+            <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.benefitsTitle')}</h4>
+            <ul className="space-y-1 text-sm sm:text-base text-gray-600">
+              <li>• {t('extrAlkali.benefits.nickel')}</li>
+              <li>• {t('extrAlkali.benefits.energy')}</li>
+              <li>• {t('extrAlkali.benefits.upTo')}</li>
+              <li>• {t('extrAlkali.benefits.impurities')}</li>
+              <li>• {t('extrAlkali.benefits.footprint')}</li>
+              <li>• {t('extrAlkali.benefits.optimized')}</li>
+            </ul>
+          </div>
 
-        <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.applicationsTitle')}</h4>
-          <ul className="space-y-1 text-sm sm:text-base text-gray-600">
-            <li>• {t('extrAlkali.applications.naoh')}</li>
-            <li>• {t('extrAlkali.applications.h2so4')}</li>
-            <li>• {t('extrAlkali.applications.hcl')}</li>
-            <li>• {t('extrAlkali.applications.cacl2')}</li>
-            <li>• {t('extrAlkali.applications.hf')}</li>
-          </ul>
+          <div>
+            <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extrAlkali.applicationsTitle')}</h4>
+            <ul className="space-y-1 text-sm sm:text-base text-gray-600">
+              <li>• {t('extrAlkali.applications.naoh')}</li>
+              <li>• {t('extrAlkali.applications.h2so4')}</li>
+              <li>• {t('extrAlkali.applications.hcl')}</li>
+              <li>• {t('extrAlkali.applications.cacl2')}</li>
+              <li>• {t('extrAlkali.applications.hf')}</li>
+            </ul>
+          </div>
         </div>
 
         <div>
@@ -170,45 +174,6 @@ export function ProcessSection() {
           <p className="text-sm sm:text-base text-gray-600">
             {t('extrAlkali.steamText2')}
           </p>
-        </div>
-      </div>
-    ),
-    HCl: (
-      <div className="text-left space-y-4 sm:space-y-6 max-w-4xl mx-auto">
-        <div>
-          <h4 className="text-2xl font-bold text-gray-800 mb-4 text-center">{t('hcl.title')}</h4>
-          <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            {t('hcl.text1')}
-          </p>
-          <p className="text-sm sm:text-base text-gray-600">
-            {t('hcl.text2')}
-          </p>
-        </div>
-
-        <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('hcl.turnKeyTitle')}</h4>
-          <p className="text-sm sm:text-base text-gray-600 mb-2 sm:mb-3">
-            {t('hcl.turnKeyText')}
-          </p>
-          
-          <h5 className="text-lg font-semibold text-gray-800 mb-2 sm:mb-3">{t('hcl.advantagesTitle')}</h5>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm sm:text-base text-gray-600 mb-4">
-            <li>• {t('hcl.advantages.synthesis')}</li>
-            <li>• {t('hcl.advantages.efficiency')}</li>
-            <li>• {t('hcl.advantages.lifetime')}</li>
-            <li>• {t('hcl.advantages.request')}</li>
-            <li>• {t('hcl.advantages.compatible')}</li>
-            <li>• {t('hcl.advantages.references')}</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('hcl.technicalTitle')}</h4>
-          <ul className="space-y-2 text-sm sm:text-base text-gray-600">
-            <li>• {t('hcl.technical.modular')}</li>
-            <li>• {t('hcl.technical.steam')}</li>
-            <li>• {t('hcl.technical.firing')}</li>
-          </ul>
         </div>
       </div>
     ),
@@ -231,14 +196,14 @@ export function ProcessSection() {
           <div className="bg-white p-1 sm:p-2 rounded-lg shadow-md w-full sm:w-auto">
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-0">
               <button
-                onClick={() => setActiveProcess('ExtraAcid')}
+                onClick={() => setActiveProcess('ExtrAcid')}
                 className={`px-4 sm:px-6 py-2 sm:py-3 rounded-md text-sm sm:text-base font-medium transition-all duration-200 w-full sm:w-auto ${
-                  activeProcess === 'ExtraAcid'
+                  activeProcess === 'ExtrAcid'
                     ? 'bg-blue-600 text-white shadow-md'
                     : 'text-gray-600 hover:bg-gray-50'
                 }`}
               >
-                ExtraAcid
+                ExtrAcid
               </button>
               <button
                 onClick={() => setActiveProcess('ExtrAlkali')}
@@ -249,16 +214,6 @@ export function ProcessSection() {
                 }`}
               >
                 ExtrAlkali
-              </button>
-              <button
-                onClick={() => setActiveProcess('HCl')}
-                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-md text-sm sm:text-base font-medium transition-all duration-200 w-full sm:w-auto ${
-                  activeProcess === 'HCl'
-                    ? 'bg-blue-600 text-white shadow-md'
-                    : 'text-gray-600 hover:bg-gray-50'
-                }`}
-              >
-                HCl
               </button>
             </div>
           </div>

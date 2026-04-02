@@ -14,14 +14,14 @@ export function NoMoCorrSection() {
               </h2>
               <div className="text-gray-600 text-lg max-w-4xl mx-auto text-left space-y-6">
                 <p>
-                  Our SIC Products are manufactured from pure directly sintered a SIC, the so called SSiC. They do no longer contain free Silicone, which may reduce the chemical resistance. SIC offers a nearly universal chemical resistance, highest thermal conductivity. Extreme surface hardness allows protection against abrasion and results in high flow rates with increased thermal efficiency. Like hardly any other corrosion resistant material, SSiC is excellently suited for extreme high temperature applications.
+                  Our SIC products are manufactured from pure directly sintered SIC, the so-called SSiC. They no longer contain free silicone, which limits chemical resistance and thermal conductivity. SIC offers nearly universal chemical resistance and high thermal conductivity. Extreme surface hardness allows protection against abrasion and results in high flow rates with increased thermal efficiency. Like hardly any other corrosion resistant material, SSiC is excellently suited for extreme high temperature applications.
                 </p>
                 <p>
-                  SIC is used as a material of choice for the following components for high temperatures. Most of them are innovatively designed in detail or generally by Wilk Graphite for the use in severe applications.
+                  ExtrAcid and ExtrAlkali are the first full Systems with extensive usage of SSiC at high temperatures and pressures.
                 </p>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-                  <ul className="space-y-2 text-base">
+                <div className="my-8">
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-2 text-base">
                     <li>• Universal Chemical resistance</li>
                     <li>• Highest thermal conductivity</li>
                     <li>• No abrasion</li>
@@ -31,8 +31,6 @@ export function NoMoCorrSection() {
                     <li>• Low fouling rates</li>
                     <li>• High velocities</li>
                     <li>• High thermal shock resistance</li>
-                  </ul>
-                  <ul className="space-y-2 text-base">
                     <li>• Many designs possible</li>
                     <li>• High temperature resistance</li>
                     <li>• Low surface roughness</li>

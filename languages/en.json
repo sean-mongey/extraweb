@@ -2,20 +2,21 @@
   "nav": {
     "home": "Home",
     "revamping": "Revamping",
-    "pilot": "Pilot",
+    "pilot": "Pilot Plant",
+    "hcl": "HCL Synthesis",
     "about": "About Us"
   },
   "hero": {
-    "title": "Welcome to ExtraWeb",
+    "title": "Welcome to ExtraSys",
     "subtitle": "Innovative Solutions for Your Needs"
   },
   "process": {
-    "title": "Our Processes",
-    "subtitle": "Explore our innovative processing solutions",
+    "title": "Advanced Plant Technology",
+    "subtitle": "Explore our innovative process solutions",
     "extraAcid": {
-      "summary": "ExtrAcid® is the first system that recycles waste sulfuric acid under pressure using innovative patented loop systems producing high concentrated acid and process steam at the same time.",
+      "summary": "ExtrAcid® is the first system that recycles waste acid under pressure using innovative patented loop systems producing high concentrated acid and process steam at the same time.",
       "introduction": "INTRODUCTION",
-      "introText1": "Waste sulfuric acid from various chemical processes has to be recycled by removing water and other impurities from the acid. By dewatering the concentration rides from less than 15% to higher values of typically 98%.",
+      "introText1": "Waste acid from various chemical processes has to be recycled by removing water and other impurities from the acid. By dewatering the concentration rides from less than 15% to higher values of typically 98%.",
       "introText2": "Typical Acid concentration systems (SAC or SAS or dewatering systems) are separated in to lower concentration of up to 70%, medium and high concentration systems.",
       "systemWorks": "SYSTEM WORKS FOR ALKALINE, HF OF HCL AS WELL",
       "benefitsTitle": "BENEFITS AT A GLANCE",
@@ -107,7 +108,7 @@
   },
   "comparison": {
     "title": "Process Comparison",
-    "subtitle": "Compare ExtraAcid and ExtrAlkali processes"
+    "subtitle": "Compare ExtrAcid and ExtrAlkali processes"
   },
   "footer": {
     "description": "Innovative solutions for your business needs.",
@@ -166,9 +167,9 @@
   },
   "about": {
     "title": "About Us",
-    "companyName": "ExtrAsys",
-    "description1": "Extrasys was set up to bring the ExtrAcid® and ExtrAlkali® systems onto the market. The company brings together the experience of 30 years in the chemical industry with materials such as graphite, silicone carbide and PTFE.",
-    "description2": "These years of experience have also highlighted the gaps and limitations of today's technology. With the ExtrAcid® and ExtrAlkali® systems, the limits of today's technology in the recycling of waste acid and soda are being redefined.",
+    "companyName": "EXTRASYS",
+    "description1": "Extrasys was set up to bring the ExtrAcid® and ExtrAlkali® systems onto the market. The company brings together the experience of 30 years in the chemical industry with innovative solutions and constant development.",
+    "description2": "These years of experience have also highlighted the gaps and limitations of today's technology. These limitations are the motivation for our developments. With the ExtrAcid® and ExtrAlkali® systems, we redefine today's technology in the recycling of waste acid and soda.",
     "location": "Extasys is located in Switzerland with offices in France, Germany, China and India.",
     "pilotPlant": "At our pilot plant in France all possible processes can be tested / demonstrated."
   },
@@ -178,7 +179,7 @@
   },
   "revamping": {
     "title": "ExtrAlkali® Revamping",
-    "subtitle": "Patented revamping module for NaOH & KOH concentration unit by Chem-Eng SASU and Wilk Graphite GmbH",
+    "subtitle": "Patented revamping module for NaOH & KOH concentration",
     "aboutTitle": "About ExtrAlkali®",
     "aboutDescription": "ExtrAlkali® is a brand born from fruitful collaboration of two internationally renowned companies",
     "brandFor": "A brand for process solutions for the chlor-alkali industry such as:",
@@ -198,8 +199,8 @@
     "moduleTitle": "Revamping Module",
     "moduleItems": {
       "item1": "Typical revamping: upgrade from a double or triple effect system to a quadruple effect system",
-      "item2": "By high temperature only use of SIC equipment to grant an excellent product quality (more or less no Ni pick up) and a long life of all equipment.",
-      "item3": "Up to 5 effects available to reduce energy consumptions / CO₂ emissions",
+      "item2": "By high temperature only use of SIC equipment to grant an excellent product quality (no Ni pick up) and a long life of all equipment.",
+      "item3": "Up to 8 effects available to reduce energy consumptions / CO₂ emissions",
       "item4": "ExtrAlkali is the only brand offering such plant concept."
     },
     "benefitsTitle": "Revamping Benefits",
