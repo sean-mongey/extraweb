@@ -41,10 +41,6 @@ export function ProcessSection() {
           </p>
         </div>
 
-        <div className="bg-green-50 p-3 sm:p-4 rounded-lg">
-          <p className="text-sm sm:text-base font-semibold text-gray-800">{t('extraAcid.systemWorks')}</p>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           <div>
             <h4 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">{t('extraAcid.benefitsTitle')}</h4>
@@ -128,10 +124,6 @@ export function ProcessSection() {
             <li>{t('extrAlkali.introItems.opex')}</li>
             <li>{t('extrAlkali.introItems.concentration')}</li>
           </ul>
-        </div>
-
-        <div className="bg-green-50 p-3 sm:p-4 rounded-lg">
-          <p className="text-sm sm:text-base font-semibold text-gray-800">{t('extrAlkali.systemWorks')}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">

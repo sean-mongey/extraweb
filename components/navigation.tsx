@@ -25,7 +25,7 @@ export function Navigation() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center" onClick={() => setMobileMenuOpen(false)}>
               <Image
-                src="/images/wilk-logo.jpg"
+                src="/images/logo1.png"
                 alt="Logo"
                 width={180}
                 height={60}
