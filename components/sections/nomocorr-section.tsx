@@ -38,20 +38,27 @@ export function NoMoCorrSection() {
                   </ul>
                 </div>
 
-                <div className="mt-8">
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">KEY PROPERTIES</h3>
-                  <ul className="space-y-2 text-base text-left max-w-2xl mx-auto">
-                    <li>• Density &gt; 3 120 kg/m³</li>
-                    <li>• Thermal conductivity: 130 W/(m.K)</li>
-                    <li>• Heat exchanger up to 450 °C and 40 barg</li>
-                    <li>• Separators</li>
-                    <li>• Pipes</li>
-                    <li>• Compensator</li>
-                    <li>• Thermowells</li>
-                    <li>• Columns</li>
-                    <li>• Vickers hardness: 19,2 GPa (500g load) &gt; Tensile Strength: 210 Mpa</li>
-                    <li>• Young's modulus: 420 GPa</li>
-                  </ul>
+                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">KEY PROPERTIES</h3>
+                    <ul className="space-y-2 text-base text-left">
+                      <li>• Density &gt; 3 120 kg/m³</li>
+                      <li>• Thermal conductivity: 130 W/(m.K)</li>
+                      <li>• Heat exchanger up to 450 °C and 40 barg</li>
+                      <li>• Vickers hardness: 19,2 GPa (500g load) &gt; Tensile Strength: 210 Mpa</li>
+                      <li>• Young's modulus: 420 GPa</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left">APPLICATIONS</h3>
+                    <ul className="space-y-2 text-base text-left">
+                      <li>• Separators</li>
+                      <li>• Pipes</li>
+                      <li>• Compensator</li>
+                      <li>• Thermowells</li>
+                      <li>• Columns</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
