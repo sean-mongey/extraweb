@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Link } from '@/src/i18n/routing';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { LanguageSwitcher } from '@/components/ui/language-switcher';
 
@@ -17,6 +17,10 @@ const navLinks = [
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = useTranslations('nav');
+  const locale = useLocale();
+  const logoAlt = locale === 'de' ? 'Logo' : locale === 'fr' ? 'Logo' : 'Logo';
+  const toggleMenuLabel =
+    locale === 'de' ? 'Menue umschalten' : locale === 'fr' ? 'Basculer le menu' : 'Toggle menu';
 
   return (
     <nav className="bg-gray-100 shadow-lg sticky top-0 z-50">
@@ -26,7 +30,7 @@ export function Navigation() {
             <Link href="/" className="flex items-center" onClick={() => setMobileMenuOpen(false)}>
               <Image
                 src="/images/logo1.png"
-                alt="Logo"
+                alt={logoAlt}
                 width={180}
                 height={60}
                 className="h-10 sm:h-14 w-auto object-contain"
@@ -55,7 +59,7 @@ export function Navigation() {
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-gray-800 hover:text-gray-900 p-2"
-              aria-label="Toggle menu"
+              aria-label={toggleMenuLabel}
             >
               {mobileMenuOpen ? (
                 <svg

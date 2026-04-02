@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'react-feather';
 import { Link } from '@/src/i18n/routing';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { NewsletterForm } from '@/components/ui/newsletter-form';
 
@@ -17,7 +17,9 @@ const footerLinks = [
 export function Footer() {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
+  const locale = useLocale();
   const [isNewsletterOpen, setIsNewsletterOpen] = useState(false);
+  const country = locale === 'de' ? 'Schweiz' : locale === 'fr' ? 'Suisse' : 'Switzerland';
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -66,7 +68,7 @@ export function Footer() {
             <h3 className="text-lg font-bold mb-4">{t('contact')}</h3>
             <p className="text-gray-400 flex items-start">
               <MapPin className="mr-2 mt-1 flex-shrink-0" size={16} /> 
-              <span>Unterer Rheinweg<br/>4057 Basel<br/>Switzerland</span>
+              <span>Unterer Rheinweg<br/>4057 Basel<br/>{country}</span>
             </p>
             <p className="text-gray-400 flex items-center mt-2">
               <Phone className="mr-2 flex-shrink-0" size={16} /> 
