@@ -11,8 +11,8 @@
     "subtitle": "Innovative Lösungen für Ihre Bedürfnisse"
   },
   "process": {
-    "title": "Unsere Prozesse",
-    "subtitle": "Entdecken Sie unsere innovativen Verarbeitungslösungen",
+    "title": "Fortschrittliche Anlagentechnologie",
+    "subtitle": "Entdecken Sie unsere innovativen Prozesslösungen",
     "extraAcid": {
       "summary": "ExtrAcid® ist das erste System, das Abfallsäure unter Druck recycelt und dabei innovative patentierte Loop-Systeme verwendet, die gleichzeitig hochkonzentrierte Säure und Prozessdampf produzieren.",
       "introduction": "EINFÜHRUNG",
@@ -167,9 +167,9 @@
   },
   "about": {
     "title": "Über uns",
-    "companyName": "ExtrAsys",
-    "description1": "Extrasys wurde gegründet, um die ExtrAcid® und ExtrAlkali® Systeme auf den Markt zu bringen. Das Unternehmen vereint 30 Jahre Erfahrung in der chemischen Industrie mit Materialien wie Graphit, Siliziumkarbid und PTFE.",
-    "description2": "Diese jahrelange Erfahrung hat auch die Lücken und Grenzen der heutigen Technologie aufgezeigt. Mit den ExtrAcid® und ExtrAlkali® Systemen werden die Grenzen der heutigen Technologie beim Recycling von Abfallsäure und Soda neu definiert.",
+    "companyName": "EXTRASYS",
+    "description1": "Extrasys wurde gegründet, um die ExtrAcid® und ExtrAlkali® Systeme auf den Markt zu bringen. Das Unternehmen vereint 30 Jahre Erfahrung in der chemischen Industrie mit innovativen Lösungen und kontinuierlicher Entwicklung.",
+    "description2": "Diese jahrelange Erfahrung hat auch die Lücken und Grenzen der heutigen Technologie aufgezeigt. Diese Einschränkungen sind die Motivation für unsere Entwicklungen. Mit den ExtrAcid® und ExtrAlkali® Systemen definieren wir die heutige Technologie beim Recycling von Abfallsäure und Soda neu.",
     "location": "Extasys befindet sich in der Schweiz mit Büros in Frankreich, Deutschland, China und Indien.",
     "pilotPlant": "In unserer Pilotanlage in Frankreich können alle möglichen Prozesse getestet / demonstriert werden."
   },
@@ -179,7 +179,7 @@
   },
   "revamping": {
     "title": "ExtrAlkali® Modernisierung",
-    "subtitle": "Patentierte Modernisierungsmodule für NaOH & KOH Konzentrationseinheiten von Chem-Eng SASU und Wilk Graphite GmbH",
+    "subtitle": "Patentiertes Modernisierungsmodul für die NaOH- und KOH-Konzentration",
     "aboutTitle": "Über ExtrAlkali®",
     "aboutDescription": "ExtrAlkali® ist eine Marke, die aus der fruchtbaren Zusammenarbeit zweier international renommierter Unternehmen entstanden ist",
     "brandFor": "Eine Marke für Prozesslösungen für die Chlor-Alkali-Industrie wie:",
@@ -199,8 +199,8 @@
     "moduleTitle": "Modernisierungsmodul",
     "moduleItems": {
       "item1": "Typische Modernisierung: Upgrade von einem Doppel- oder Dreifach-Effekt-System auf ein Vierfach-Effekt-System",
-      "item2": "Durch hohe Temperaturen nur Verwendung von SIC-Ausrüstung, um eine ausgezeichnete Produktqualität (mehr oder weniger kein Ni-Aufnahme) und eine lange Lebensdauer aller Ausrüstungen zu gewährleisten.",
-      "item3": "Bis zu 5 Effekte verfügbar, um Energieverbrauch / CO₂-Emissionen zu reduzieren",
+      "item2": "Durch hohe Temperaturen nur Verwendung von SIC-Ausrüstung, um eine ausgezeichnete Produktqualität (keine Ni-Aufnahme) und eine lange Lebensdauer aller Ausrüstungen zu gewährleisten.",
+      "item3": "Bis zu 8 Effekte verfügbar, um Energieverbrauch / CO₂-Emissionen zu reduzieren",
       "item4": "ExtrAlkali ist die einzige Marke, die ein solches Anlagenkonzept anbietet."
     },
     "benefitsTitle": "Modernisierungsvorteile",

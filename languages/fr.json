@@ -11,12 +11,12 @@
     "subtitle": "Solutions innovantes pour vos besoins"
   },
   "process": {
-    "title": "Nos processus",
-    "subtitle": "Découvrez nos solutions de traitement innovantes",
+    "title": "Technologie avancée des installations",
+    "subtitle": "Découvrez nos solutions de procédé innovantes",
     "extraAcid": {
-      "summary": "ExtrAcid® est le premier système qui recycle l'acide sulfurique usé sous pression en utilisant des systèmes de boucles brevetés innovants produisant de l'acide hautement concentré et de la vapeur de processus en même temps.",
+      "summary": "ExtrAcid® est le premier système qui recycle l'acide usé sous pression en utilisant des systèmes de boucles brevetés innovants produisant de l'acide hautement concentré et de la vapeur de processus en même temps.",
       "introduction": "INTRODUCTION",
-      "introText1": "L'acide sulfurique usé provenant de divers processus chimiques doit être recyclé en éliminant l'eau et autres impuretés de l'acide. Par déshydratation, la concentration passe de moins de 15% à des valeurs plus élevées, typiquement de 98%.",
+      "introText1": "L'acide usé provenant de divers processus chimiques doit être recyclé en éliminant l'eau et autres impuretés de l'acide. Par déshydratation, la concentration passe de moins de 15% à des valeurs plus élevées, typiquement de 98%.",
       "introText2": "Les systèmes typiques de concentration d'acide (SAC ou SAS ou systèmes de déshydratation) sont séparés en systèmes de faible concentration jusqu'à 70%, moyenne et haute concentration.",
       "systemWorks": "LE SYSTÈME FONCTIONNE AUSSI POUR ALKALIN, HF OU HCL",
       "benefitsTitle": "AVANTAGES EN UN COUP D'ŒIL",
@@ -167,9 +167,9 @@
   },
   "about": {
     "title": "À propos",
-    "companyName": "ExtrAsys",
-    "description1": "Extrasys a été créé pour mettre sur le marché les systèmes ExtrAcid® et ExtrAlkali®. L'entreprise réunit 30 ans d'expérience dans l'industrie chimique avec des matériaux tels que le graphite, le carbure de silicium et le PTFE.",
-    "description2": "Ces années d'expérience ont également mis en évidence les lacunes et les limitations de la technologie actuelle. Avec les systèmes ExtrAcid® et ExtrAlkali®, les limites de la technologie actuelle dans le recyclage des acides et sodas usés sont redéfinies.",
+    "companyName": "EXTRASYS",
+    "description1": "Extrasys a été créé pour mettre sur le marché les systèmes ExtrAcid® et ExtrAlkali®. L'entreprise réunit 30 ans d'expérience dans l'industrie chimique avec des solutions innovantes et un développement constant.",
+    "description2": "Ces années d'expérience ont également mis en évidence les lacunes et les limites de la technologie actuelle. Ces limites sont la motivation de nos développements. Avec les systèmes ExtrAcid® et ExtrAlkali®, nous redéfinissons la technologie actuelle dans le recyclage des acides et sodas usés.",
     "location": "Extasys est situé en Suisse avec des bureaux en France, Allemagne, Chine et Inde.",
     "pilotPlant": "Dans notre usine pilote en France, tous les processus possibles peuvent être testés / démontrés."
   },
@@ -179,7 +179,7 @@
   },
   "revamping": {
     "title": "Modernisation ExtrAlkali®",
-    "subtitle": "Module de modernisation breveté pour unité de concentration NaOH & KOH par Chem-Eng SASU et Wilk Graphite GmbH",
+    "subtitle": "Module de modernisation breveté pour la concentration NaOH et KOH",
     "aboutTitle": "À propos d'ExtrAlkali®",
     "aboutDescription": "ExtrAlkali® est une marque née de la collaboration fructueuse de deux entreprises de renommée internationale",
     "brandFor": "Une marque pour les solutions de processus pour l'industrie chlore-alcali telles que:",
@@ -199,8 +199,8 @@
     "moduleTitle": "Module de modernisation",
     "moduleItems": {
       "item1": "Modernisation typique: mise à niveau d'un système à double ou triple effet vers un système à quadruple effet",
-      "item2": "Par haute température, utilisation uniquement d'équipements SIC pour garantir une excellente qualité de produit (plus ou moins aucune absorption de Ni) et une longue durée de vie de tous les équipements.",
-      "item3": "Jusqu'à 5 effets disponibles pour réduire les consommations d'énergie / émissions de CO₂",
+      "item2": "À haute température, utilisation uniquement d'équipements SIC pour garantir une excellente qualité de produit (sans absorption de Ni) et une longue durée de vie de tous les équipements.",
+      "item3": "Jusqu'à 8 effets disponibles pour réduire les consommations d'énergie / émissions de CO₂",
       "item4": "ExtrAlkali est la seule marque offrant un tel concept d'usine."
     },
     "benefitsTitle": "Avantages de la modernisation",
