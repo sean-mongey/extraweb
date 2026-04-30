@@ -10,8 +10,19 @@ import '../globals.css';
 import 'aos/dist/aos.css';
 
 export const metadata: Metadata = {
-  title: 'ExtraWeb',
-  description: 'ExtraWeb - Innovative Solutions',
+  title: 'sextrasys',
+  description: 'sextrasys - Innovative Solutions',
+  openGraph: {
+    title: 'sextrasys',
+    description: 'sextrasys - Innovative Solutions',
+    siteName: 'sextrasys',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'sextrasys',
+    description: 'sextrasys - Innovative Solutions',
+  },
 };
 
 export function generateStaticParams() {
