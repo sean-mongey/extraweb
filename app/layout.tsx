@@ -4,8 +4,25 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://extrasys.ch"),
   title: "Extrasys",
   description: "Extrasys - Innovative Solutions",
+  icons: {
+    icon: "/images/logo1.png",
+    shortcut: "/images/logo1.png",
+    apple: "/images/logo1.png",
+  },
+  openGraph: {
+    title: "Extrasys",
+    description: "Extrasys - Innovative Solutions",
+    images: ["/images/logo1.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Extrasys",
+    description: "Extrasys - Innovative Solutions",
+    images: ["/images/logo1.png"],
+  },
 };
 
 export default function RootLayout({
